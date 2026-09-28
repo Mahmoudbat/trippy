@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#0c0a07" />
+    <meta
+      name="description"
+      content="Discover Jordan beyond the famous places. Explore ancient cities, hidden valleys and curated journeys, and keep your own travel journal."
+    />
+    <title>Discover Jordan — Beyond the famous places</title>
+    <link rel="icon" href="assets/compass.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script defer src="js/startup.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="#/" aria-label="Discover Jordan home"
+        ><img src="assets/compass.svg" width="38" height="38" alt="" /><span
+          >Discover Jordan<small>BEYOND THE FAMOUS PLACES</small></span
+        ></a
+      >
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-expanded="false"
+        aria-controls="navigation"
+      >
+        Menu ☰
+      </button>
+      <nav id="navigation" aria-label="Main navigation">
+        <a href="#/">Home</a><a href="#/explore">Explore</a
+        ><a href="#/hidden">Hidden Jordan</a
+        ><a href="#/experiences">Experiences</a><a href="#/map">Map</a
+        ><a href="#/journey">My Journey</a>
+      </nav>
+      <button class="account-button" id="account-button">
+        Sign in <span aria-hidden="true">↗</span>
+      </button>
+    </header>
+    <div id="connection" class="connection" role="status" hidden></div>
+    <main id="main" tabindex="-1">
+      <div class="loading">
+        <span class="eyebrow">YOUR NEXT CHAPTER</span>
+        <h1>Jordan is waiting.</h1>
+        <p>Opening your field guide…</p>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div>
+        <a class="brand" href="#/">✦ Discover Jordan</a>
+        <p>A small country. A thousand ways to feel alive.</p>
+      </div>
+      <div>
+        <a href="#/about">About & image credits</a
+        ><a href="#/journey">Your travel journal</a
+        ><small>DISCOVER · EXPLORE · EXPERIENCE · REMEMBER</small>
+      </div>
+    </footer>
+    <dialog id="account-dialog" aria-labelledby="account-title">
+      <button
+        class="dialog-close"
+        data-close="account-dialog"
+        aria-label="Close account dialog"
+      >
+        ×
+      </button>
+      <span class="eyebrow">YOUR JOURNEY, EVERYWHERE</span>
+      <h2 id="account-title">Welcome, explorer.</h2>
+      <p id="account-info">
+        Sign in to keep your favorites and memories across devices.
+      </p>
+      <form id="auth-form">
+        <label
+          >Email<input
+            name="email"
+            type="email"
+            autocomplete="email"
+            required
+            maxlength="254" /></label
+        ><label
+          >Password<input
+            name="password"
+            type="password"
+            autocomplete="current-password"
+            aria-describedby="password-hint"
+            minlength="8"
+            maxlength="128"
+            required
+        /><small id="password-hint" class="muted">Use at least 8 characters.</small></label>
+        <div class="actions">
+          <button class="button primary" type="submit">Sign in</button
+          ><button class="button" type="button" id="register">
+            Create account
+          </button>
+        </div>
+        <button class="text-button" type="button" id="reset-password">
+          Forgot password?
+        </button>
+      </form>
+      <div id="signed-in" hidden>
+        <p id="account-email"></p>
+        <button class="button" id="import-guest">
+          Copy this device’s guest journey to my account
+        </button>
+        <p class="muted small">
+          Existing account entries are kept. Guest-only places are copied.
+        </p>
+        <button class="button" id="sign-out">Sign out</button>
+      </div>
+      <p id="auth-message" role="status"></p>
+    </dialog>
+    <dialog
+      id="gallery-dialog"
+      class="gallery-dialog"
+      aria-label="Destination photograph"
+    >
+      <button
+        class="dialog-close"
+        data-close="gallery-dialog"
+        aria-label="Close photograph"
+      >
+        ×
+      </button>
+      <div id="gallery-content"></div>
+    </dialog>
+    <div id="toast" role="status" aria-live="polite" hidden></div>
+    <noscript
+      ><p class="notice">
+        Please enable JavaScript to explore destinations and use your journey.
+      </p></noscript
+    >
+  </body>
+</html>
