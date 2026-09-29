@@ -12,6 +12,9 @@ import {
   safeURL,
   validPlace,
   cleanEntry,
+  cleanProfile,
+  recommendPlaces,
+  buildItinerary,
 } from "../public/js/domain.js";
 const catalog = JSON.parse(
   readFileSync(new URL("../public/data/catalog.json", import.meta.url), "utf8"),
@@ -174,4 +177,51 @@ test("entry normalization limits memory and rejects malformed values", () => {
     { favorite: false, visited: false, visitedAt: "", memory: "x" },
   );
   assert.equal(cleanEntry({ memory: "a".repeat(3000) }).memory.length, 2000);
+});
+test("traveler profiles reject unknown values and stay within trip limits", () => {
+  assert.deepEqual(
+    cleanProfile({
+      interests: ["nature", "nature", "unknown", "adventure"],
+      days: 99,
+      pace: "rushed",
+      region: "Nowhere",
+    }),
+    {
+      interests: ["nature", "adventure"],
+      days: 7,
+      pace: "balanced",
+      region: "Any region",
+    },
+  );
+});
+test("smart recommendations reflect interests and create a unique coherent plan", () => {
+  const profile = {
+    interests: ["nature", "adventure", "hidden"],
+    days: 3,
+    pace: "balanced",
+    region: "South Jordan",
+  };
+  const ranked = recommendPlaces(places, profile, {
+    petra: { visited: true },
+  });
+  assert.equal(ranked.length, places.length);
+  assert.ok(
+    ranked
+      .slice(0, 6)
+      .some(({ place }) => ["Nature", "Adventure"].includes(place.category)),
+  );
+  const plan = buildItinerary(places, profile, {});
+  assert.equal(plan.length, 3);
+  assert.ok(plan.every((day) => day.stops.length >= 1 && day.stops.length <= 2));
+  const ids = plan.flatMap((day) => day.stops.map(({ place }) => place.id));
+  assert.equal(new Set(ids).size, ids.length);
+  const order = { "North Jordan": 0, "Central Jordan": 1, "South Jordan": 2 };
+  const dayRegions = plan.map(day => order[day.stops[0].place.region]);
+  const direction = dayRegions[0] === 2 ? -1 : 1;
+  assert.ok(dayRegions.every((value, index) => index === 0 || (value - dayRegions[index - 1]) * direction >= 0));
+  for (const day of plan) {
+    assert.equal(new Set(day.stops.map(stop => stop.place.region)).size, 1);
+    const driving = day.stops.slice(1).reduce((hours, stop, index) => hours + distanceKm(day.stops[index].place.coordinates, stop.place.coordinates) * 1.35 / 50, 0);
+    assert.ok(driving <= 3);
+  }
 });

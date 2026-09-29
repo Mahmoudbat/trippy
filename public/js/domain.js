@@ -20,6 +20,51 @@ export const colors = {
   Nature: "#8eba88",
   Wellness: "#c1a0d8",
 };
+export const interestOptions = [
+  { id: "history", label: "History & archaeology", icon: "⌂" },
+  { id: "nature", label: "Nature & wildlife", icon: "❋" },
+  { id: "adventure", label: "Adventure & hiking", icon: "△" },
+  { id: "spiritual", label: "Spiritual places", icon: "☼" },
+  { id: "wellness", label: "Wellness & relaxation", icon: "≈" },
+  { id: "photography", label: "Photography", icon: "◎" },
+  { id: "culture", label: "Local culture", icon: "✦" },
+  { id: "hidden", label: "Hidden gems", icon: "◇" },
+];
+const interestRules = {
+  history: {
+    categories: ["Culture"],
+    tokens: ["history", "historic", "ancient", "roman", "ruins", "castle", "mosaic", "medieval", "byzantine", "unesco"],
+  },
+  nature: {
+    categories: ["Nature"],
+    tokens: ["nature", "forest", "wildlife", "biosphere", "waterfall", "landscape"],
+  },
+  adventure: {
+    categories: ["Adventure"],
+    tokens: ["adventure", "hiking", "canyon", "canyoning", "swimming", "desert"],
+  },
+  spiritual: {
+    categories: ["Religion"],
+    tokens: ["religion", "spiritual", "sacred", "biblical", "christian", "moses"],
+  },
+  wellness: {
+    categories: ["Wellness"],
+    tokens: ["wellness", "relaxation", "thermal", "hot springs", "slow travel"],
+  },
+  photography: {
+    categories: [],
+    tokens: ["photography", "panorama", "landscape", "stargazing"],
+  },
+  culture: {
+    categories: ["Culture"],
+    tokens: ["culture", "village", "bedouin", "architecture", "local discovery"],
+  },
+  hidden: {
+    categories: [],
+    tokens: ["hidden gem", "discovery", "local discovery"],
+    hidden: true,
+  },
+};
 export const escapeHTML = (value) =>
   String(value ?? "").replace(
     /[&<>"']/g,
@@ -161,6 +206,114 @@ export function explorerLevel(count, total) {
           : count > 0
             ? "Wanderer"
             : "Seeker";
+}
+export function cleanProfile(raw = {}) {
+  if (!raw || typeof raw !== "object") raw = {};
+  const allowed = new Set(interestOptions.map((item) => item.id));
+  const selected = Array.isArray(raw.interests)
+    ? [...new Set(raw.interests.filter((id) => allowed.has(id)))].slice(0, 8)
+    : [];
+  const days = Math.max(1, Math.min(7, Number.parseInt(raw.days, 10) || 3));
+  const pace = ["relaxed", "balanced", "full"].includes(raw.pace)
+    ? raw.pace
+    : "balanced";
+  const region = regions.includes(raw.region) ? raw.region : "Any region";
+  return { interests: selected, days, pace, region };
+}
+export function recommendPlaces(places, rawProfile, entries = {}) {
+  const profile = cleanProfile(rawProfile);
+  const chosen = profile.interests.length ? profile.interests : ["culture", "nature"];
+  return places
+    .map((place) => {
+      const text = normalize(
+        [place.category, ...place.tags, ...place.perfectFor].join(" "),
+      );
+      let matchScore = (place.rating || 0) * 0.25;
+      const matchReasons = [];
+      for (const id of chosen) {
+        const rule = interestRules[id];
+        if (!rule) continue;
+        let matched = false;
+        if (rule.categories.includes(place.category)) {
+          matchScore += 5;
+          matched = true;
+        }
+        const tokenMatches = rule.tokens.filter((token) => text.includes(token));
+        if (tokenMatches.length) {
+          matchScore += Math.min(3, tokenMatches.length * 1.25);
+          matched = true;
+        }
+        if (rule.hidden && place.isHiddenGem) {
+          matchScore += 4;
+          matched = true;
+        }
+        if (matched)
+          matchReasons.push(
+            interestOptions.find((item) => item.id === id)?.label || id,
+          );
+      }
+      if (profile.region !== "Any region" && place.region === profile.region) {
+        matchScore += 3;
+        matchReasons.push(profile.region);
+      }
+      if (entries[place.id]?.favorite) matchScore += 1.5;
+      if (entries[place.id]?.visited) matchScore -= 5;
+      return {
+        place,
+        matchScore,
+        matchReasons: [...new Set(matchReasons)].slice(0, 3),
+      };
+    })
+    .sort(
+      (a, b) =>
+        b.matchScore - a.matchScore ||
+        (b.place.rating || 0) - (a.place.rating || 0) ||
+        a.place.name.localeCompare(b.place.name),
+    );
+}
+export function buildItinerary(places, rawProfile, entries = {}) {
+  const profile = cleanProfile(rawProfile);
+  const stopsPerDay = { relaxed: 1, balanced: 2, full: 3 }[profile.pace];
+  const candidateCount = Math.min(places.length, profile.days * stopsPerDay);
+  const regionIndex = { "North Jordan": 0, "Central Jordan": 1, "South Jordan": 2 };
+  const selected = recommendPlaces(places, profile, entries).slice(0, candidateCount);
+  const reverse = regionIndex[selected[0]?.place.region] === 2;
+  const remaining = selected.sort((a, b) =>
+    (reverse ? regionIndex[b.place.region] - regionIndex[a.place.region] : regionIndex[a.place.region] - regionIndex[b.place.region]) || b.matchScore - a.matchScore,
+  );
+  const visitHours = place => {
+    const text = place.recommendedDuration.toLowerCase();
+    if (text.includes('full')) return 8;
+    if (text.includes('half')) return 4;
+    if (text.includes('day')) return 8;
+    return Number(text.match(/\d+/)?.[0] || 2);
+  };
+  const days = [];
+  for (let number = 1; number <= profile.days && remaining.length; number++) {
+    const stops = [remaining.shift()];
+    while (stops.length < stopsPerDay && remaining.length) {
+      const current = stops.at(-1).place;
+      let bestIndex = -1;
+      let bestValue = Infinity;
+      remaining.forEach((candidate, index) => {
+        if (candidate.place.region !== stops[0].place.region) return;
+        const visitTime = stops.reduce((sum, stop) => sum + visitHours(stop.place), 0) + visitHours(candidate.place);
+        const routeStops = [...stops, candidate];
+        const travelTime = routeStops.slice(1).reduce((sum, stop, i) => sum + distanceKm(routeStops[i].place.coordinates, stop.place.coordinates) * 1.35 / 50, 0);
+        if (travelTime > 3) return;
+        if (visitTime + travelTime > ({ relaxed: 8, balanced: 10, full: 12 }[profile.pace])) return;
+        const routeValue = distanceKm(current.coordinates, candidate.place.coordinates) - candidate.matchScore * 2;
+        if (routeValue < bestValue) {
+          bestValue = routeValue;
+          bestIndex = index;
+        }
+      });
+      if (bestIndex < 0) break;
+      stops.push(remaining.splice(bestIndex, 1)[0]);
+    }
+    days.push({ number, stops });
+  }
+  return days;
 }
 export function validPlace(p) {
   return (

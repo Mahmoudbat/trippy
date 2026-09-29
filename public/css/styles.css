@@ -227,7 +227,7 @@ small,
   display: none;
 }
 .menu-toggle {
-  margin-left: auto;
+  margin-inline-start: auto;
 }
 .site-header nav.open {
   display: flex;
@@ -1024,6 +1024,95 @@ small,
 .map-select .place-card .card-image {
   height: 200px;
 }
+.planner-profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: clamp(22px, 4vw, 38px);
+  border: 1px solid #72563a;
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, #332417, #18140f);
+}
+.planner-profile h2 {
+  margin: 8px 0 14px;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+}
+.profile-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.profile-chips span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 5px 10px;
+  border: 1px solid #735b3d;
+  border-radius: 999px;
+  background: #17120d;
+  color: var(--sand);
+  font-size: 0.72rem;
+}
+.planner-onboarding {
+  margin-bottom: 32px;
+}
+.smart-plan {
+  padding-top: 56px;
+}
+.smart-days {
+  display: grid;
+  gap: 16px;
+}
+.smart-day {
+  display: grid;
+  grid-template-columns: 70px minmax(0, 1fr);
+  gap: 20px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--panel);
+}
+.day-number {
+  display: grid;
+  align-content: start;
+  justify-items: center;
+  padding: 10px;
+  border-right: 1px solid var(--line);
+  color: var(--sand);
+}
+.day-number span {
+  font-size: 0.58rem;
+  letter-spacing: 2px;
+}
+.day-number strong {
+  font-family: Georgia, serif;
+  font-size: 2.4rem;
+}
+.smart-stop {
+  display: grid;
+  grid-template-columns: 32px minmax(0, 1fr);
+  gap: 12px;
+  padding: 8px 0 16px;
+}
+.smart-stop + .smart-stop {
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+.smart-stop h3,
+.smart-stop p {
+  margin: 0 0 8px;
+}
+.route-dot {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border: 1px solid var(--gold);
+  border-radius: 50%;
+  color: var(--sand);
+  font-size: 0.72rem;
+}
 .journey-stats {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1202,6 +1291,65 @@ dialog {
   width: min(520px, 92vw);
   max-height: 90svh;
   overflow: auto;
+}
+#account-dialog {
+  width: min(760px, 94vw);
+}
+#preferences-form {
+  padding: 20px 0 26px;
+}
+#preferences-form fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+#preferences-form legend {
+  margin-bottom: 8px;
+  font-family: Georgia, serif;
+  font-size: 1.35rem;
+}
+.interest-options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 16px;
+}
+.interest-option {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  align-items: center;
+  gap: 10px;
+  min-height: 54px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #17130f;
+  cursor: pointer;
+}
+.interest-option:has(input:checked) {
+  border-color: var(--gold);
+  background: #392819;
+}
+.preference-fields {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+.account-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 2px 0 22px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+}
+.account-divider::before,
+.account-divider::after {
+  content: "";
+  flex: 1;
+  border-top: 1px solid var(--line);
 }
 dialog::backdrop {
   background: #000b;
@@ -1439,6 +1587,25 @@ main:focus {
   .timeline-item {
     padding: 20px;
   }
+  .planner-profile {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .smart-day {
+    grid-template-columns: 48px minmax(0, 1fr);
+    gap: 12px;
+    padding: 16px 12px;
+  }
+  .day-number {
+    padding-inline: 2px 10px;
+  }
+  .interest-options,
+  .preference-fields {
+    grid-template-columns: 1fr;
+  }
+  #account-dialog {
+    padding: 36px 18px;
+  }
   .map-pin {
     font-size: 0.65rem !important;
   }
@@ -1466,4 +1633,34 @@ main:focus {
     transition: none !important;
     scroll-behavior: auto !important;
   }
+}
+/* Practical guide and portable trip plan, matching the existing field-guide palette. */
+.practical-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+.practical-grid .facts { position:static; }
+.practical-grid h3 { font-size:1.2rem; }
+.trip-tools { border:1px solid var(--border, #443720); border-radius:16px; padding:24px; }
+.trip-route { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:18px; }
+.trip-route ol { padding-left:24px; }
+.trip-route li { margin-bottom:12px; }
+.trip-message { overflow-wrap:anywhere; }
+.language-toggle { border:1px solid var(--border,#443720); background:transparent; color:inherit; border-radius:8px; min-width:46px; min-height:42px; cursor:pointer; }
+.distance-warning { margin-block:18px; }
+html[dir="rtl"] body { font-family:"Cairo",Tahoma,Arial,sans-serif; }
+html[dir="rtl"] .site-header, html[dir="rtl"] .section-head, html[dir="rtl"] .card-title, html[dir="rtl"] .actions { direction:rtl; }
+html[dir="rtl"] .back-link { left:auto; right:5%; }
+html[dir="rtl"] .text-link, html[dir="rtl"] .back-link { unicode-bidi:plaintext; }
+html[dir="rtl"] .hero-content { padding-left:0; padding-right:2%; }
+html[dir="rtl"] .route-dot { margin-right:0; margin-left:12px; }
+html[dir="rtl"] .trip-route ol { padding-left:0; padding-right:24px; }
+html[dir="rtl"] .arrow, html[dir="rtl"] .text-link, html[dir="rtl"] .back-link { direction:rtl; }
+@media(max-width:600px) { .practical-grid { grid-template-columns:1fr; } .trip-actions .button { width:100%; } }
+@media print {
+  body { background:white!important; color:black!important; }
+  body > :not(main), #main > :not(.trip-tools), .trip-tools > :not(.trip-print) { display:none!important; }
+  .trip-tools { border:0; width:100%; margin:0; padding:0; }
+  .trip-print, .trip-print * { color:black!important; background:white!important; }
+  .trip-route { display:block; }
+  .trip-route article { break-inside:avoid; }
+  .trip-print details { display:none; }
+  a { text-decoration:none; }
 }

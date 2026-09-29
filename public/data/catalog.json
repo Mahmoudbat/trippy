@@ -43,7 +43,18 @@
           "source": "https://commons.wikimedia.org/wiki/File:Al_Deir_Petra.JPG",
           "modifications": "Resized and converted to WebP for web delivery."
         }
-      ]
+      ],
+      "practical": {
+        "entryPrice": "International visitors staying overnight in Jordan: 50 JOD for one day, 55 for two, 60 for three. Day visitors without an overnight stay: 90 JOD. Eligibility, Jordan Pass and other visitor categories differ; confirm before purchase.",
+        "openingHours": "Official 2026 schedule: March 2–October 1, 06:00–18:00; October 2–March 1, 06:30–17:00. Confirm the schedule for your date.",
+        "bestTime": "March – May. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Look for a scheduled service to Wadi Musa/Petra. Check the operator’s current departure point, timetable and return availability before booking; allow a transfer to the visitor centre.",
+        "privateCar": "Navigate to Petra Visitor Centre in Wadi Musa. Park outside the archaeological site and continue on foot; allow time for the Siq walk.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://visitpetra.jo/en/Openinghours",
+        "verification": "Official Petra published schedule and fees checked 2026-09-28; subject to change.",
+        "priceSourceUrl": "https://www.visitpetra.jo/en/Petrafees"
+      }
     },
     {
       "id": "wadi-rum",
@@ -88,7 +99,18 @@
           "source": "https://commons.wikimedia.org/wiki/File:Mountain_in_Wadi_Rum,_Jordan.jpg",
           "modifications": "Resized and converted to WebP for web delivery."
         }
-      ]
+      ],
+      "practical": {
+        "entryPrice": "Jordanian 1 / international 5 JOD; tours and camps extra. Published ministry rate; reconfirm before visiting.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "October – April. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Aqaba, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Wadi_Rum",
+        "verification": "Published ministry admission listing checked 2026-09-28. Hours and transport schedules are not verified.",
+        "priceSourceUrl": "https://www.mota.gov.jo/EN/Pages/Entrance_Fees"
+      }
     },
     {
       "id": "jerash",
@@ -132,7 +154,18 @@
           "source": "https://commons.wikimedia.org/wiki/File:Oval_Plaza_(Forum_Romanum,_Gerasa_-_Jerash,_Jordan)_-_%D8%B3%D8%A7%D8%AD%D8%A9_%D8%A7%D9%84%D9%86%D8%AF%D9%88%D8%A9,_%D8%AC%D8%B1%D8%B4.jpg",
           "modifications": "Resized and converted to WebP for web delivery."
         }
-      ]
+      ],
+      "practical": {
+        "entryPrice": "Published Ministry of Tourism listing: international visitor 10 JOD; Jordanian visitor 0.50 JOD. Confirm eligibility, inclusions and current price before purchase.",
+        "openingHours": "Official visitor guide lists winter 08:00–16:00 and summer 08:00–18:30, with separate spring and Ramadan hours. Confirm the exact closing time for your date.",
+        "bestTime": "March – November. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask about buses toward Jerash from Amman, then confirm the drop-off point and transfer to the archaeological entrance. Return schedules are not verified.",
+        "privateCar": "Navigate to the Jerash archaeological visitor entrance, not just the modern city centre. Allow time for parking and walking through the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://jerash.visitjordan.com/en/page/10/Jerash-Visiting-Information",
+        "verification": "Official published guide checked 2026-09-28; confirm date-specific hours and fees.",
+        "priceSourceUrl": "https://www.tourism.jo/EN/Pages/Entrance_Fees"
+      }
     },
     {
       "id": "dead-sea",
@@ -175,7 +208,17 @@
           "source": "https://commons.wikimedia.org/wiki/File:Dead_Sea,_Jordan_02.jpg",
           "modifications": "Resized and converted to WebP for web delivery."
         }
-      ]
+      ],
+      "practical": {
+        "entryPrice": "Access depends on the beach, spa or bathing facility. Request a current day-pass quote and check towel, pool and meal inclusions; no fixed price is verified.",
+        "openingHours": "Use the opening hours of your chosen bathing facility; confirm day-pass admission and last entry before traveling.",
+        "bestTime": "October – May. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Dead Sea, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Dead_Sea",
+        "verification": "Planning guidance; live fees and schedules require confirmation."
+      }
     },
     {
       "id": "ajloun",
@@ -222,7 +265,18 @@
           "source": "https://commons.wikimedia.org/wiki/File:Ajloun_Castle.jpg",
           "modifications": "Resized and converted to WebP for web delivery."
         }
-      ]
+      ],
+      "practical": {
+        "entryPrice": "Castle: Jordanian 0.25 / international 3 JOD. Published ministry rate; reconfirm before visiting.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "March – November. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Ajloun, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Ajloun_Castle",
+        "verification": "Published ministry admission listing checked 2026-09-28. Hours and transport schedules are not verified.",
+        "priceSourceUrl": "https://www.mota.gov.jo/EN/Pages/Entrance_Fees"
+      }
     },
     {
       "id": "mount-nebo",
@@ -267,7 +321,18 @@
           "source": "https://commons.wikimedia.org/wiki/File:Mount_Nebo_BW_6.JPG",
           "modifications": "Resized and converted to WebP for web delivery."
         }
-      ]
+      ],
+      "practical": {
+        "entryPrice": "Jordanian 0.50 / international 3 JOD. Published ministry rate; reconfirm before visiting.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "Year-round. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Madaba, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Nebo",
+        "verification": "Published ministry admission listing checked 2026-09-28. Hours and transport schedules are not verified.",
+        "priceSourceUrl": "https://www.mota.gov.jo/EN/Pages/Entrance_Fees"
+      }
     },
     {
       "id": "wadi-mujib",
@@ -314,7 +379,18 @@
           "source": "https://commons.wikimedia.org/wiki/File:WadiMujib-Canyon.jpg",
           "modifications": "Resized and converted to WebP for web delivery."
         }
-      ]
+      ],
+      "practical": {
+        "entryPrice": "Siq Trail: Jordanian 15 / resident 18 / international 21 JOD, plus 16% tax. Other trails differ. Published ministry rate; reconfirm before visiting.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "April – October. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Dead Sea, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Wadi_Mujib",
+        "verification": "Published ministry admission listing checked 2026-09-28. Hours and transport schedules are not verified.",
+        "priceSourceUrl": "https://www.mota.gov.jo/EN/Pages/Entrance_Fees"
+      }
     },
     {
       "id": "umm-qais",
@@ -360,7 +436,18 @@
           "source": "https://commons.wikimedia.org/wiki/File:Modern_Umm_Qais,_Jordan.jpg",
           "modifications": "Resized and converted to WebP for web delivery."
         }
-      ]
+      ],
+      "practical": {
+        "entryPrice": "Jordanian 0.25 / international 5 JOD. Published ministry rate; reconfirm before visiting.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "March – November. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Irbid, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Umm_Qais",
+        "verification": "Published ministry admission listing checked 2026-09-28. Hours and transport schedules are not verified.",
+        "priceSourceUrl": "https://www.mota.gov.jo/EN/Pages/Entrance_Fees"
+      }
     },
     {
       "id": "dana",
@@ -407,7 +494,18 @@
           "source": "https://commons.wikimedia.org/wiki/File:Dana_Reserve_02.jpg",
           "modifications": "Resized and converted to WebP for web delivery."
         }
-      ]
+      ],
+      "practical": {
+        "entryPrice": "Jordanian 2 / resident 5 / international 10 JOD, plus 16% tax. Published ministry rate; reconfirm before visiting.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "March – May, Sep – Nov. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Tafilah, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Dana_Biosphere_Reserve",
+        "verification": "Published ministry admission listing checked 2026-09-28. Hours and transport schedules are not verified.",
+        "priceSourceUrl": "https://www.mota.gov.jo/EN/Pages/Entrance_Fees"
+      }
     },
     {
       "id": "baptism-site",
@@ -452,7 +550,18 @@
           "source": "https://commons.wikimedia.org/wiki/File:Bethany_(5).JPG",
           "modifications": "Resized and converted to WebP for web delivery."
         }
-      ]
+      ],
+      "practical": {
+        "entryPrice": "Jordanian 3 / other Arab nationalities 5 / other international 12 JOD. Published ministry rate; reconfirm before visiting.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "October – April. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Jordan Valley. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Al-Maghtas",
+        "verification": "Published ministry admission listing checked 2026-09-28. Hours and transport schedules are not verified.",
+        "priceSourceUrl": "https://www.mota.gov.jo/EN/Pages/Entrance_Fees"
+      }
     },
     {
       "id": "main-hot-springs",
@@ -496,7 +605,17 @@
           "source": "https://commons.wikimedia.org/wiki/File:Ma%27in_Hot_Springs2.JPG",
           "modifications": "Resized and converted to WebP for web delivery."
         }
-      ]
+      ],
+      "practical": {
+        "entryPrice": "Access depends on the beach, spa or bathing facility. Request a current day-pass quote and check towel, pool and meal inclusions; no fixed price is verified.",
+        "openingHours": "Use the opening hours of your chosen bathing facility; confirm day-pass admission and last entry before traveling.",
+        "bestTime": "Year-round. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Madaba, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Ma%27in_Hot_Springs",
+        "verification": "Planning guidance; live fees and schedules require confirmation."
+      }
     },
     {
       "id": "madaba",
@@ -541,7 +660,17 @@
           "source": "https://commons.wikimedia.org/wiki/File:Madaba_Mosaic_Map_depicting_Jerusalem_and_the_Dead_Sea_Church_of_St_George.jpg",
           "modifications": "Resized and converted to WebP for web delivery."
         }
-      ]
+      ],
+      "practical": {
+        "entryPrice": "No single admission ticket covers the city. Museums, archaeological sites, beaches and activities may charge separately; confirm with each venue.",
+        "openingHours": "City streets have no single visitor timetable. Individual museums, shops and attractions set their own hours; check the venues on your route.",
+        "bestTime": "March – November. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Madaba, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Madaba",
+        "verification": "Planning guidance; live fees and schedules require confirmation."
+      }
     },
     {
       "id": "wadi-bin-hammad",
@@ -583,7 +712,17 @@
         }
       ],
       "image": "assets/wadi-bin-hammad-photo.webp",
-      "heroImage": "assets/wadi-bin-hammad-photo.webp"
+      "heroImage": "assets/wadi-bin-hammad-photo.webp",
+      "practical": {
+        "entryPrice": "Current admission fee is not verified. Confirm the price for your nationality and any activity or guide fees before booking.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "Check seasonal access locally. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Karak, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:07_Wadi_Bin_Hammad_Tropical_Rain_Forest_Trail_-_Descent_into_the_Valley_-_panoramio.jpg",
+        "verification": "Planning guidance; live fees and schedules require confirmation."
+      }
     },
     {
       "id": "dana-villages",
@@ -625,7 +764,17 @@
         }
       ],
       "image": "assets/dana-villages.webp",
-      "heroImage": "assets/dana-villages.webp"
+      "heroImage": "assets/dana-villages.webp",
+      "practical": {
+        "entryPrice": "Current admission fee is not verified. Confirm the price for your nationality and any activity or guide fees before booking.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "Check seasonal access locally. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Tafilah, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Dana%2C_Jordan",
+        "verification": "Planning guidance; live fees and schedules require confirmation."
+      }
     },
     {
       "id": "wadi-al-hasa",
@@ -667,7 +816,17 @@
         }
       ],
       "image": "assets/wadi-al-hasa-photo.webp",
-      "heroImage": "assets/wadi-al-hasa-photo.webp"
+      "heroImage": "assets/wadi-al-hasa-photo.webp",
+      "practical": {
+        "entryPrice": "Current admission fee is not verified. Confirm the price for your nationality and any activity or guide fees before booking.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "Check seasonal access locally. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Karak, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Wadi_al-Hasa",
+        "verification": "Planning guidance; live fees and schedules require confirmation."
+      }
     },
     {
       "id": "umm-qais-viewpoints",
@@ -699,17 +858,27 @@
       "ratingLabel": "Not scored",
       "images": [
         {
-          "src": "assets/umm-qais-viewpoints.webp",
-          "alt": "Umm Qais Viewpoints — Wikimedia Commons photograph",
+          "src": "assets/umm-qais-panorama.webp",
+          "alt": "Panoramic view from Umm Qais toward the Yarmouk Valley and Sea of Galilee",
           "credit": "Daniel Case",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-          "source": "https://commons.wikimedia.org/wiki/File:Modern_Umm_Qais,_Jordan.jpg",
-          "modifications": "Resized and converted to WebP for web delivery."
+          "source": "https://commons.wikimedia.org/wiki/File:Umm_Qais_Galilee-Golan_panorama.jpg",
+          "modifications": "Panorama resized and converted to WebP for web delivery."
         }
       ],
-      "image": "assets/umm-qais-viewpoints.webp",
-      "heroImage": "assets/umm-qais-viewpoints.webp"
+      "image": "assets/umm-qais-panorama.webp",
+      "heroImage": "assets/umm-qais-panorama.webp",
+      "practical": {
+        "entryPrice": "Current admission fee is not verified. Confirm the price for your nationality and any activity or guide fees before booking.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "Check seasonal access locally. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Irbid, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Umm_Qais",
+        "verification": "Planning guidance; live fees and schedules require confirmation."
+      }
     },
     {
       "id": "aqaba",
@@ -751,7 +920,17 @@
         }
       ],
       "image": "assets/aqaba.webp",
-      "heroImage": "assets/aqaba.webp"
+      "heroImage": "assets/aqaba.webp",
+      "practical": {
+        "entryPrice": "No single admission ticket covers the city. Museums, archaeological sites, beaches and activities may charge separately; confirm with each venue.",
+        "openingHours": "City streets have no single visitor timetable. Individual museums, shops and attractions set their own hours; check the venues on your route.",
+        "bestTime": "Spring and autumn; check local conditions. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Aqaba, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Aqaba",
+        "verification": "Planning guidance; live fees and schedules require confirmation."
+      }
     },
     {
       "id": "al-salt",
@@ -793,7 +972,17 @@
         }
       ],
       "image": "assets/al-salt-photo.webp",
-      "heroImage": "assets/al-salt-photo.webp"
+      "heroImage": "assets/al-salt-photo.webp",
+      "practical": {
+        "entryPrice": "No single admission ticket covers the city. Museums, archaeological sites, beaches and activities may charge separately; confirm with each venue.",
+        "openingHours": "City streets have no single visitor timetable. Individual museums, shops and attractions set their own hours; check the venues on your route.",
+        "bestTime": "Spring and autumn; check local conditions. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Balqa, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Al-Salt",
+        "verification": "Planning guidance; live fees and schedules require confirmation."
+      }
     },
     {
       "id": "umm-al-jimal",
@@ -835,7 +1024,18 @@
         }
       ],
       "image": "assets/umm-al-jimal.webp",
-      "heroImage": "assets/umm-al-jimal.webp"
+      "heroImage": "assets/umm-al-jimal.webp",
+      "practical": {
+        "entryPrice": "Jordanian 0.25 / international 2 JOD. Published ministry rate; reconfirm before visiting.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "Spring and autumn; check local conditions. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Mafraq, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Umm_el-Jimal",
+        "verification": "Published ministry admission listing checked 2026-09-28. Hours and transport schedules are not verified.",
+        "priceSourceUrl": "https://www.mota.gov.jo/EN/Pages/Entrance_Fees"
+      }
     },
     {
       "id": "karak",
@@ -877,7 +1077,18 @@
         }
       ],
       "image": "assets/karak-photo.webp",
-      "heroImage": "assets/karak-photo.webp"
+      "heroImage": "assets/karak-photo.webp",
+      "practical": {
+        "entryPrice": "Castle: Jordanian 0.25 / international 2 JOD. Published ministry rate; reconfirm before visiting.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "Spring and autumn; check local conditions. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Karak, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Kerak_Castle",
+        "verification": "Published ministry admission listing checked 2026-09-28. Hours and transport schedules are not verified.",
+        "priceSourceUrl": "https://www.mota.gov.jo/EN/Pages/Entrance_Fees"
+      }
     },
     {
       "id": "shobak",
@@ -919,7 +1130,18 @@
         }
       ],
       "image": "assets/shobak.webp",
-      "heroImage": "assets/shobak.webp"
+      "heroImage": "assets/shobak.webp",
+      "practical": {
+        "entryPrice": "Castle: Jordanian 0.25 / international 1 JOD. Published ministry rate; reconfirm before visiting.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "Spring and autumn; check local conditions. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Ma’an, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Montreal_%28castle%29",
+        "verification": "Published ministry admission listing checked 2026-09-28. Hours and transport schedules are not verified.",
+        "priceSourceUrl": "https://www.mota.gov.jo/EN/Pages/Entrance_Fees"
+      }
     },
     {
       "id": "seven-sleepers",
@@ -961,7 +1183,17 @@
         }
       ],
       "image": "assets/seven-sleepers.webp",
-      "heroImage": "assets/seven-sleepers.webp"
+      "heroImage": "assets/seven-sleepers.webp",
+      "practical": {
+        "entryPrice": "Current admission fee is not verified. Confirm the price for your nationality and any activity or guide fees before booking.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "Spring and autumn; check local conditions. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Amman, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Cave_of_the_Seven_Sleepers",
+        "verification": "Planning guidance; live fees and schedules require confirmation."
+      }
     },
     {
       "id": "ajloun-forest",
@@ -1003,7 +1235,18 @@
         }
       ],
       "image": "assets/ajloun-forest.webp",
-      "heroImage": "assets/ajloun-forest.webp"
+      "heroImage": "assets/ajloun-forest.webp",
+      "practical": {
+        "entryPrice": "Jordanian 2.50 / resident 6 / international 8 JOD, plus 16% tax. Published ministry rate; reconfirm before visiting.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "Spring and autumn; check local conditions. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Ajloun, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Ajloun_Forest_Reserve",
+        "verification": "Published ministry admission listing checked 2026-09-28. Hours and transport schedules are not verified.",
+        "priceSourceUrl": "https://www.mota.gov.jo/EN/Pages/Entrance_Fees"
+      }
     },
     {
       "id": "dibeen",
@@ -1045,7 +1288,18 @@
         }
       ],
       "image": "assets/dibeen.webp",
-      "heroImage": "assets/dibeen.webp"
+      "heroImage": "assets/dibeen.webp",
+      "practical": {
+        "entryPrice": "Small car 2 / large car 3 JOD, plus 16% tax. Published ministry rate; reconfirm before visiting.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "Spring and autumn; check local conditions. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Jerash, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Dibeen_Forest_Reserve",
+        "verification": "Published ministry admission listing checked 2026-09-28. Hours and transport schedules are not verified.",
+        "priceSourceUrl": "https://www.mota.gov.jo/EN/Pages/Entrance_Fees"
+      }
     },
     {
       "id": "afra",
@@ -1087,7 +1341,17 @@
         }
       ],
       "image": "assets/afra-photo.webp",
-      "heroImage": "assets/afra-photo.webp"
+      "heroImage": "assets/afra-photo.webp",
+      "practical": {
+        "entryPrice": "Access depends on the beach, spa or bathing facility. Request a current day-pass quote and check towel, pool and meal inclusions; no fixed price is verified.",
+        "openingHours": "Use the opening hours of your chosen bathing facility; confirm day-pass admission and last entry before traveling.",
+        "bestTime": "Spring and autumn; check local conditions. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Tafilah, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Afra_-_panoramio_(1).jpg",
+        "verification": "Planning guidance; live fees and schedules require confirmation."
+      }
     },
     {
       "id": "al-himma",
@@ -1119,7 +1383,17 @@
       "ratingLabel": "Not scored",
       "images": [],
       "image": "assets/landscape.svg",
-      "heroImage": "assets/landscape.svg"
+      "heroImage": "assets/landscape.svg",
+      "practical": {
+        "entryPrice": "Access depends on the beach, spa or bathing facility. Request a current day-pass quote and check towel, pool and meal inclusions; no fixed price is verified.",
+        "openingHours": "Use the opening hours of your chosen bathing facility; confirm day-pass admission and last entry before traveling.",
+        "bestTime": "Spring and autumn; check local conditions. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Irbid, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://www.hiddenmediterranean.net/en/poi/natural-hot-spring-of-al-himmah/",
+        "verification": "Planning guidance; live fees and schedules require confirmation."
+      }
     },
     {
       "id": "amman",
@@ -1161,7 +1435,18 @@
         }
       ],
       "image": "assets/amman.webp",
-      "heroImage": "assets/amman.webp"
+      "heroImage": "assets/amman.webp",
+      "practical": {
+        "entryPrice": "Citadel: Jordanian 0.25 / international 3 JOD. Published ministry rate; reconfirm before visiting.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "Spring and autumn; check local conditions. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Amman, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Amman_Citadel",
+        "verification": "Published ministry admission listing checked 2026-09-28. Hours and transport schedules are not verified.",
+        "priceSourceUrl": "https://www.mota.gov.jo/EN/Pages/Entrance_Fees"
+      }
     }
   ],
   "experiences": [

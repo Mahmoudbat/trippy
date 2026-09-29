@@ -4,17 +4,30 @@
 
 ## Delivery status
 
-The website is connected to the Firebase project `discover-jordan-pixelsite`. **Firestore, Email/Password Authentication, security-rule deployment, catalog seeding and the public Hosting deployment still need to be completed and verified.** Do not submit a localhost URL as the final competition link.
+The website is connected and deployed through the Firebase project `discover-jordan-pixelsite`. Firestore, Email/Password Authentication, owner-only security rules, the 27-place cloud catalog and Firebase Hosting are active at **[discover-jordan-pixelsite.web.app](https://discover-jordan-pixelsite.web.app/)**. Automated checks cover private/public trip access, route validation and a real client-generated PDF container. Browser checks verified Arabic RTL, guest preferences, action-triggered sign-in and Arabic PDF generation.
 
 Runtime: **HTML, CSS, JavaScript and Firebase only.** No React, Vue, Angular, Next.js, Tailwind, Vite or custom backend. There is no bundling or build step. Node, Python or the Firebase CLI may be used as local development tools, but none runs as the deployed backend.
 
 ## Features
+
+- Optional sign-in: visitors browse immediately. Guest favorites, visits, filters, language and preferences persist in LocalStorage. Account onboarding asks for interests once after the first successful login and remains editable later. Cloud save, sync and share prompt for sign-in only at the action.
+- Every place includes practical-information fields under `practical`: entryPrice, openingHours, bestTime, publicTransport, privateCar, tips, sourceUrl, optional priceSourceUrl and verification. Published prices link to their sources; unavailable information is marked unverified. Confirm current access before travel.
+- For You downloads `discover-jordan-itinerary.pdf` directly in the browser. Each PDF includes the site, trip length, days, place names, descriptions and areas; Arabic is rendered RTL through Canvas before being embedded in the PDF. It also offers private saved trips, public links, retrieval and revocation.
+- The itinerary ranks matches, groups each day within one geographic region, caps estimated within-day driving near three hours, orders stops by proximity and sequences region groups in one direction to reduce backtracking. Haversine distance × 1.35 and 50 km/h remain clearly labeled planning estimates.
+- EN/AR switching is stored locally. Arabic uses Cairo, sets `lang`/`dir`, mirrors directional layout and supplies Arabic place names, descriptions, visit guidance, planner, map, journey and PDF content.
+
+### Trip storage and verification
+
+Private routes: `users/{uid}/trips/{id}`. Public snapshots: `sharedPlans/{id}`. Rules allow only owners to write, disallow public listing, and limit route payloads. Deleting a saved trip revokes its corresponding share. Guest sync merges favorites/visits and keeps existing account memories, then copies the device's guest preferences. Guest and account journals remain separate.
+
+Run `node --test tests/*.test.mjs` for catalog, filtering, profile, route and snapshot checks. Before competition submission, test authenticated save/share/revoke and cross-account denial with two user-owned test accounts. No new framework or paid routing API is required.
 
 - All seven original views: Home, Explore, Destination Details, Hidden Jordan, Jordan Experiences, Map and My Journey.
 - 27 unified destinations, five categories, three regions, four curated experiences and original optional stops.
 - English/Arabic search, combined filters, guide-score filter, visited/saved filters, sorting and optional 50/100 km distance filters.
 - Shareable hash routes, reload support and browser Back/Forward.
 - Favorites, visited places, editable dates, private memories, earned achievements, region progress and JSON journal export.
+- Interest onboarding and a transparent smart planner that ranks matching places and groups nearby stops into a personalized 1–7 day itinerary.
 - Guest local storage; Firebase email/password accounts and per-user Firestore journals after setup.
 - Framework-free interactive SVG orientation map and Google Maps links.
 - Mobile-first layouts, semantic controls, keyboard focus, native dialogs, reduced-motion support, loading and error states.
@@ -53,7 +66,7 @@ The supplied `firebase.json` already points Hosting at `public/`. Do not overwri
 7. Open the printed Hosting URL. Create your admin user's account using the website. Copy that user's UID from Authentication → Users. In Firestore Console create `admins/USER_UID` with `active: true` (boolean). Client users cannot grant themselves this role.
 8. Open `/admin.html` on the same site and sign in. Click **Add missing catalog places**. It creates missing `places/{id}` documents and preserves existing data. Return to the home page and reload; the preview/cloud-catalog warning should disappear.
 9. Edit tourism records in Firestore Console as needed. Keep the documented schema and stable IDs. New cloud records appear after reload. New bundled places or experiences require updating `public/data/catalog.json` and redeploying.
-10. Test sign-up, sign-in, sign-out, password reset, favorites, visits and private memories. Use a second browser session to verify cloud persistence. Test two different accounts for isolation. Add the actual public URL to this README only after these checks pass.
+10. Test sign-up, sign-in, sign-out, password reset, favorites, visits and private memories. Use a second browser session to verify cloud persistence. Test two different accounts for isolation. The deployed URL is `https://discover-jordan-pixelsite.web.app/`.
 
 On default `*.web.app` / `*.firebaseapp.com` Hosting domains, the app can discover Firebase's `/__/firebase/init.json` automatically. Explicit configuration is still needed for local cloud use and custom domains. Configuration identifies a project; **Firestore Security Rules enforce access**.
 
@@ -65,6 +78,7 @@ Images ship with Hosting, so Cloud Storage is not needed. No user image uploads,
 |---|---|---|
 | `places/{placeId}` | Public | Authenticated admin; validated fields |
 | `users/{uid}/journey/{placeId}` | Owner only | Owner only; known place, field/type/length validation, server timestamp |
+| `users/{uid}/profile/preferences` | Owner only | Owner only; validated interests, trip length, pace and region |
 | `admins/{uid}` | The account can read its own role | Firebase Console / trusted administrator only |
 | Everything else | Denied | Denied |
 

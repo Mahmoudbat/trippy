@@ -1,5 +1,5 @@
 import { firebaseConfig } from "./config.js";
-import { validPlace, cleanEntry } from "./domain.js";
+import { validPlace, cleanEntry, cleanProfile } from "./domain.js";
 let servicePromise;
 export function connectFirebase() {
   return (servicePromise ||= initialize());
@@ -29,6 +29,30 @@ async function initialize() {
       authSDK.createUserWithEmailAndPassword(auth, email, password),
     signOut: () => authSDK.signOut(auth),
     reset: (email) => authSDK.sendPasswordResetEmail(auth, email),
+    async saveTrip(uid, route, shared = false) {
+      const ref = dbSDK.doc(dbSDK.collection(db, 'users', uid, 'trips'));
+      const value = { ...route, ownerId: uid, updatedAt: dbSDK.serverTimestamp() };
+      const batch = dbSDK.writeBatch(db);
+      batch.set(ref, value);
+      if (shared) batch.set(dbSDK.doc(db, 'sharedPlans', ref.id), value);
+      await batch.commit();
+      return ref.id;
+    },
+    async trips(uid) {
+      const snapshot = await dbSDK.getDocs(dbSDK.collection(db, 'users', uid, 'trips'));
+      return snapshot.docs.map(d => ({ ...d.data(), id: d.id }));
+    },
+    async sharedTrip(id) {
+      const snapshot = await dbSDK.getDoc(dbSDK.doc(db, 'sharedPlans', id));
+      if (!snapshot.exists()) throw new Error('Trip unavailable');
+      return snapshot.data();
+    },
+    async deleteTrip(uid, id) {
+      const batch = dbSDK.writeBatch(db);
+      batch.delete(dbSDK.doc(db, 'sharedPlans', id));
+      batch.delete(dbSDK.doc(db, 'users', uid, 'trips', id));
+      await batch.commit();
+    },
     async places() {
       const snapshot = await dbSDK.getDocs(dbSDK.collection(db, "places"));
       const records = snapshot.docs.map((d) => ({ ...d.data(), id: d.id }));
@@ -44,6 +68,18 @@ async function initialize() {
       );
       return Object.fromEntries(
         snapshot.docs.map((d) => [d.id, cleanEntry(d.data())]),
+      );
+    },
+    async profile(uid) {
+      const snapshot = await dbSDK.getDoc(
+        dbSDK.doc(db, "users", uid, "profile", "preferences"),
+      );
+      return snapshot.exists() ? cleanProfile(snapshot.data()) : null;
+    },
+    async saveProfile(uid, value) {
+      await dbSDK.setDoc(
+        dbSDK.doc(db, "users", uid, "profile", "preferences"),
+        { ...cleanProfile(value), updatedAt: dbSDK.serverTimestamp() },
       );
     },
     async saveEntry(uid, id, value) {

@@ -46,6 +46,53 @@ service cloud.firestore {
         && request.resource.data.memory.size() <= 2000
         && request.resource.data.updatedAt == request.time;
     }
+    match /users/{uid}/profile/{profileId} {
+      allow read, delete: if owner(uid) && profileId == 'preferences';
+      allow create, update: if owner(uid)
+        && profileId == 'preferences'
+        && request.resource.data.keys().hasAll(['interests','days','pace','region','updatedAt'])
+        && request.resource.data.keys().hasOnly(['interests','days','pace','region','updatedAt'])
+        && request.resource.data.interests is list
+        && request.resource.data.interests.size() <= 8
+        && request.resource.data.days is int
+        && request.resource.data.days >= 1
+        && request.resource.data.days <= 7
+        && request.resource.data.pace in ['relaxed','balanced','full']
+        && request.resource.data.region in ['Any region','North Jordan','Central Jordan','South Jordan']
+        && request.resource.data.updatedAt == request.time;
+    }
+    function validDay(day) {
+      return day is map && day.keys().hasOnly(['stops']) && day.stops is list
+        && day.stops.size() >= 1 && day.stops.size() <= 3
+        && day.stops[0] is string && day.stops[0].size() <= 80
+        && (day.stops.size() < 2 || (day.stops[1] is string && day.stops[1].size() <= 80))
+        && (day.stops.size() < 3 || (day.stops[2] is string && day.stops[2].size() <= 80));
+    }
+    function validTrip() {
+      let d = request.resource.data;
+      return d.keys().hasOnly(['version','days','ownerId','updatedAt'])
+        && d.version == 1 && owner(d.ownerId) && d.updatedAt == request.time
+        && d.days is list && d.days.size() >= 1 && d.days.size() <= 7
+        && validDay(d.days[0])
+        && (d.days.size() < 2 || validDay(d.days[1]))
+        && (d.days.size() < 3 || validDay(d.days[2]))
+        && (d.days.size() < 4 || validDay(d.days[3]))
+        && (d.days.size() < 5 || validDay(d.days[4]))
+        && (d.days.size() < 6 || validDay(d.days[5]))
+        && (d.days.size() < 7 || validDay(d.days[6]));
+    }
+    match /users/{uid}/trips/{tripId} {
+      allow read, delete: if owner(uid);
+      allow create, update: if owner(uid) && validTrip();
+    }
+    match /sharedPlans/{tripId} {
+      allow get: if true;
+      allow list: if false;
+      allow create: if validTrip();
+      allow update: if owner(resource.data.ownerId) && validTrip();
+      allow delete: if request.auth != null
+        && (!exists(/databases/$(database)/documents/sharedPlans/$(tripId)) || owner(resource.data.ownerId));
+    }
     match /{document=**} { allow read, write: if false; }
   }
 }
