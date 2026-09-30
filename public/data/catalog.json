@@ -1,0 +1,1668 @@
+{
+  "places": [
+    {
+      "id": "petra",
+      "name": "Petra",
+      "arabicName": "البتراء",
+      "region": "South Jordan",
+      "regionCity": "Ma'an, Jordan",
+      "category": "Culture",
+      "tags": [
+        "UNESCO",
+        "Ancient Civilization",
+        "Hiking",
+        "Photography"
+      ],
+      "description": "The rose-red city half as old as time. Petra is Jordan's most iconic archaeological treasure, a vast ancient city carved into rose-colored sandstone cliffs by the Nabataean civilization.",
+      "whyVisit": "Walk through a lost Nabataean city carved into rose-colored sandstone. The Siq canyon narrows dramatically before revealing the iconic Treasury facade — one of the most breathtaking moments in all of travel.",
+      "bestTime": "March – May",
+      "recommendedDuration": "1–2 Days",
+      "rating": 4.9,
+      "distance": 220,
+      "coordinates": {
+        "lat": 30.3285,
+        "lng": 35.4444
+      },
+      "image": "assets/petra.webp",
+      "heroImage": "assets/petra.webp",
+      "perfectFor": [
+        "History lovers",
+        "Photography",
+        "Hiking"
+      ],
+      "historicalPeriod": "Nabataean Civilization",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Petra",
+      "ratingLabel": "Demo guide score",
+      "images": [
+        {
+          "src": "assets/petra.webp",
+          "alt": "Petra — Wikimedia Commons photograph",
+          "credit": "Azurfrog",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Al_Deir_Petra.JPG",
+          "modifications": "Resized and converted to WebP for web delivery."
+        }
+      ],
+      "practical": {
+        "entryPrice": "International visitors staying overnight in Jordan: 50 JOD for one day, 55 for two, 60 for three. Day visitors without an overnight stay: 90 JOD. Eligibility, Jordan Pass and other visitor categories differ; confirm before purchase.",
+        "openingHours": "Official 2026 schedule: March 2–October 1, 06:00–18:00; October 2–March 1, 06:30–17:00. Confirm the schedule for your date.",
+        "bestTime": "March – May. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Look for a scheduled service to Wadi Musa/Petra. Check the operator’s current departure point, timetable and return availability before booking; allow a transfer to the visitor centre.",
+        "privateCar": "Navigate to Petra Visitor Centre in Wadi Musa. Park outside the archaeological site and continue on foot; allow time for the Siq walk.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://visitpetra.jo/en/Openinghours",
+        "verification": "Official Petra published schedule and fees checked 2026-09-28; subject to change.",
+        "priceSourceUrl": "https://www.visitpetra.jo/en/Petrafees"
+      }
+    },
+    {
+      "id": "wadi-rum",
+      "name": "Wadi Rum",
+      "arabicName": "وادي رم",
+      "region": "South Jordan",
+      "regionCity": "Aqaba, Jordan",
+      "category": "Adventure",
+      "tags": [
+        "Desert",
+        "Stargazing",
+        "Bedouin",
+        "UNESCO"
+      ],
+      "description": "The Valley of the Moon. A vast expanse of dramatic sandstone mountains and red sand desert that has served as a backdrop for countless films — and countless human lifetimes before them.",
+      "whyVisit": "Sleep under a canopy of stars in a Bedouin camp, explore towering red rock formations at dawn, and feel the profound silence of one of Earth's oldest landscapes.",
+      "bestTime": "October – April",
+      "recommendedDuration": "1–2 Days",
+      "rating": 4.9,
+      "distance": 290,
+      "coordinates": {
+        "lat": 29.5765,
+        "lng": 35.4206
+      },
+      "image": "assets/wadi-rum.webp",
+      "heroImage": "assets/wadi-rum.webp",
+      "perfectFor": [
+        "Adventure seekers",
+        "Stargazing",
+        "Photography"
+      ],
+      "historicalPeriod": "Prehistoric to Modern",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Wadi_Rum",
+      "ratingLabel": "Demo guide score",
+      "images": [
+        {
+          "src": "assets/wadi-rum.webp",
+          "alt": "Wadi Rum — Wikimedia Commons photograph",
+          "credit": "Daniel Case",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Mountain_in_Wadi_Rum,_Jordan.jpg",
+          "modifications": "Resized and converted to WebP for web delivery."
+        }
+      ],
+      "practical": {
+        "entryPrice": "Jordanian 1 / international 5 JOD; tours and camps extra. Published ministry rate; reconfirm before visiting.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "October – April. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Aqaba, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Wadi_Rum",
+        "verification": "Published ministry admission listing checked 2026-09-28. Hours and transport schedules are not verified.",
+        "priceSourceUrl": "https://www.mota.gov.jo/EN/Pages/Entrance_Fees"
+      }
+    },
+    {
+      "id": "jerash",
+      "name": "Jerash",
+      "arabicName": "جرش",
+      "region": "North Jordan",
+      "regionCity": "Jerash, Jordan",
+      "category": "Culture",
+      "tags": [
+        "Roman",
+        "Ruins",
+        "History"
+      ],
+      "description": "The Pompeii of the East. Jerash is one of the best-preserved Roman provincial cities in the world, with colonnaded streets, triumphal arches, and ancient theaters still standing after two millennia.",
+      "whyVisit": "Walk the same colonnaded streets that Roman legions marched along, then watch the sun set behind columns that have stood for 2,000 years.",
+      "bestTime": "March – November",
+      "recommendedDuration": "Half Day",
+      "rating": 4.7,
+      "distance": 48,
+      "coordinates": {
+        "lat": 32.2808,
+        "lng": 35.8918
+      },
+      "image": "assets/jerash.webp",
+      "heroImage": "assets/jerash.webp",
+      "perfectFor": [
+        "History lovers",
+        "Photography",
+        "Architecture"
+      ],
+      "historicalPeriod": "Roman Empire",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jerash",
+      "ratingLabel": "Demo guide score",
+      "images": [
+        {
+          "src": "assets/jerash.webp",
+          "alt": "Jerash — Wikimedia Commons photograph",
+          "credit": "Petar Milošević",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Oval_Plaza_(Forum_Romanum,_Gerasa_-_Jerash,_Jordan)_-_%D8%B3%D8%A7%D8%AD%D8%A9_%D8%A7%D9%84%D9%86%D8%AF%D9%88%D8%A9,_%D8%AC%D8%B1%D8%B4.jpg",
+          "modifications": "Resized and converted to WebP for web delivery."
+        }
+      ],
+      "practical": {
+        "entryPrice": "Published Ministry of Tourism listing: international visitor 10 JOD; Jordanian visitor 0.50 JOD. Confirm eligibility, inclusions and current price before purchase.",
+        "openingHours": "Official visitor guide lists winter 08:00–16:00 and summer 08:00–18:30, with separate spring and Ramadan hours. Confirm the exact closing time for your date.",
+        "bestTime": "March – November. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask about buses toward Jerash from Amman, then confirm the drop-off point and transfer to the archaeological entrance. Return schedules are not verified.",
+        "privateCar": "Navigate to the Jerash archaeological visitor entrance, not just the modern city centre. Allow time for parking and walking through the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://jerash.visitjordan.com/en/page/10/Jerash-Visiting-Information",
+        "verification": "Official published guide checked 2026-09-28; confirm date-specific hours and fees.",
+        "priceSourceUrl": "https://www.tourism.jo/EN/Pages/Entrance_Fees"
+      }
+    },
+    {
+      "id": "dead-sea",
+      "name": "Dead Sea",
+      "arabicName": "البحر الميت",
+      "region": "Central Jordan",
+      "regionCity": "Dead Sea, Jordan",
+      "category": "Wellness",
+      "tags": [
+        "Salt lake",
+        "Landscape",
+        "Relaxation"
+      ],
+      "description": "Float in the salt-rich waters of the Dead Sea and explore the surrounding shoreline landscape.",
+      "whyVisit": "Experience the unusual buoyancy of a hypersaline lake and its striking desert setting.",
+      "bestTime": "October – May",
+      "recommendedDuration": "1 Day",
+      "rating": 4.6,
+      "distance": 55,
+      "coordinates": {
+        "lat": 31.7226,
+        "lng": 35.588
+      },
+      "image": "assets/dead-sea-photo.webp",
+      "heroImage": "assets/dead-sea-photo.webp",
+      "perfectFor": [
+        "Wellness",
+        "Relaxation",
+        "Photography"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dead_Sea",
+      "ratingLabel": "Demo guide score",
+      "images": [
+        {
+          "src": "assets/dead-sea-photo.webp",
+          "alt": "Dead Sea",
+          "credit": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Dead_Sea,_Jordan_02.jpg",
+          "modifications": "Resized and converted to WebP for web delivery."
+        }
+      ],
+      "practical": {
+        "entryPrice": "Access depends on the beach, spa or bathing facility. Request a current day-pass quote and check towel, pool and meal inclusions; no fixed price is verified.",
+        "openingHours": "Use the opening hours of your chosen bathing facility; confirm day-pass admission and last entry before traveling.",
+        "bestTime": "October – May. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Dead Sea, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Dead_Sea",
+        "verification": "Planning guidance; live fees and schedules require confirmation."
+      }
+    },
+    {
+      "id": "ajloun",
+      "name": "Ajloun Castle",
+      "arabicName": "قلعة عجلون",
+      "region": "North Jordan",
+      "regionCity": "Ajloun, Jordan",
+      "category": "Culture",
+      "tags": [
+        "Castle",
+        "Crusades",
+        "Medieval",
+        "Forest",
+        "Hidden Gem"
+      ],
+      "description": "A 12th-century Arab castle built by Saladin's general, perched dramatically atop Jabal 'Auf overlooking verdant oak forests and the Jordan Valley.",
+      "whyVisit": "Survey the sweeping valleys and forests that Saladin's forces once defended. The views from the castle battlements are some of the finest in Jordan.",
+      "bestTime": "March – November",
+      "recommendedDuration": "Half Day",
+      "rating": 4.4,
+      "distance": 76,
+      "coordinates": {
+        "lat": 32.3254,
+        "lng": 35.7277
+      },
+      "image": "assets/ajloun.webp",
+      "heroImage": "assets/ajloun.webp",
+      "perfectFor": [
+        "History lovers",
+        "Hiking",
+        "Nature"
+      ],
+      "historicalPeriod": "Ayyubid Dynasty",
+      "isHiddenGem": true,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ajloun_Castle",
+      "ratingLabel": "Demo guide score",
+      "images": [
+        {
+          "src": "assets/ajloun.webp",
+          "alt": "Ajloun Castle — Wikimedia Commons photograph",
+          "credit": "Hiking in Jordan website and guidebook",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Ajloun_Castle.jpg",
+          "modifications": "Resized and converted to WebP for web delivery."
+        }
+      ],
+      "practical": {
+        "entryPrice": "Castle: Jordanian 0.25 / international 3 JOD. Published ministry rate; reconfirm before visiting.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "March – November. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Ajloun, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Ajloun_Castle",
+        "verification": "Published ministry admission listing checked 2026-09-28. Hours and transport schedules are not verified.",
+        "priceSourceUrl": "https://www.mota.gov.jo/EN/Pages/Entrance_Fees"
+      }
+    },
+    {
+      "id": "mount-nebo",
+      "name": "Mount Nebo",
+      "arabicName": "جبل نيبو",
+      "region": "Central Jordan",
+      "regionCity": "Madaba, Jordan",
+      "category": "Religion",
+      "tags": [
+        "Biblical",
+        "Moses",
+        "Panorama",
+        "Sacred"
+      ],
+      "description": "The mountain where Moses is said to have seen the Promised Land before his death. On clear days, you can see Jerusalem, Bethlehem, and the Jordan River Valley.",
+      "whyVisit": "Stand where Moses stood and survey the sweep of history — the Jordan River, the Dead Sea, and on clear days, Jerusalem itself shimmering in the distance.",
+      "bestTime": "Year-round",
+      "recommendedDuration": "2 Hours",
+      "rating": 4.5,
+      "distance": 52,
+      "coordinates": {
+        "lat": 31.7683,
+        "lng": 35.7257
+      },
+      "image": "assets/mount-nebo.webp",
+      "heroImage": "assets/mount-nebo.webp",
+      "perfectFor": [
+        "Spiritual travelers",
+        "Photography",
+        "History lovers"
+      ],
+      "historicalPeriod": "Biblical Era",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Nebo",
+      "ratingLabel": "Demo guide score",
+      "images": [
+        {
+          "src": "assets/mount-nebo.webp",
+          "alt": "Mount Nebo — Wikimedia Commons photograph",
+          "credit": "Berthold Werner",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Mount_Nebo_BW_6.JPG",
+          "modifications": "Resized and converted to WebP for web delivery."
+        }
+      ],
+      "practical": {
+        "entryPrice": "Jordanian 0.50 / international 3 JOD. Published ministry rate; reconfirm before visiting.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "Year-round. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Madaba, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Nebo",
+        "verification": "Published ministry admission listing checked 2026-09-28. Hours and transport schedules are not verified.",
+        "priceSourceUrl": "https://www.mota.gov.jo/EN/Pages/Entrance_Fees"
+      }
+    },
+    {
+      "id": "wadi-mujib",
+      "name": "Wadi Mujib",
+      "arabicName": "وادي الموجب",
+      "region": "Central Jordan",
+      "regionCity": "Dead Sea, Jordan",
+      "category": "Adventure",
+      "tags": [
+        "Canyon",
+        "Canyoning",
+        "Wildlife",
+        "Biosphere",
+        "Hidden Gem"
+      ],
+      "description": "The Grand Canyon of Jordan. Wadi Mujib is a spectacular gorge that plunges from Jordanian highlands to the shores of the Dead Sea, creating one of the world's great natural canyons.",
+      "whyVisit": "Wade through turquoise waters in towering slot canyons, rappel waterfalls, and discover an extraordinary biosphere reserve home to rare Nubian ibex.",
+      "bestTime": "April – October",
+      "recommendedDuration": "Full Day",
+      "rating": 4.8,
+      "distance": 92,
+      "coordinates": {
+        "lat": 31.4673,
+        "lng": 35.5721
+      },
+      "image": "assets/wadi-mujib.webp",
+      "heroImage": "assets/wadi-mujib.webp",
+      "perfectFor": [
+        "Adventure seekers",
+        "Wildlife",
+        "Swimming"
+      ],
+      "historicalPeriod": "Natural Reserve",
+      "isHiddenGem": true,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Wadi_Mujib",
+      "ratingLabel": "Demo guide score",
+      "images": [
+        {
+          "src": "assets/wadi-mujib.webp",
+          "alt": "Wadi Mujib — Wikimedia Commons photograph",
+          "credit": "YousefTOmar",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:WadiMujib-Canyon.jpg",
+          "modifications": "Resized and converted to WebP for web delivery."
+        }
+      ],
+      "practical": {
+        "entryPrice": "Siq Trail: Jordanian 15 / resident 18 / international 21 JOD, plus 16% tax. Other trails differ. Published ministry rate; reconfirm before visiting.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "April – October. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Dead Sea, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Wadi_Mujib",
+        "verification": "Published ministry admission listing checked 2026-09-28. Hours and transport schedules are not verified.",
+        "priceSourceUrl": "https://www.mota.gov.jo/EN/Pages/Entrance_Fees"
+      }
+    },
+    {
+      "id": "umm-qais",
+      "name": "Umm Qais",
+      "arabicName": "أم قيس",
+      "region": "North Jordan",
+      "regionCity": "Irbid, Jordan",
+      "category": "Culture",
+      "tags": [
+        "Roman",
+        "Ruins",
+        "Panorama",
+        "Hidden Gem"
+      ],
+      "description": "Ancient Gadara, where Jesus performed the miracle of the Gadarene swine. The black basalt ruins sit dramatically above the Sea of Galilee, the Golan Heights, and the Jordan Valley.",
+      "whyVisit": "Discover one of Jordan's most overlooked treasures — a Roman city of black basalt with staggering views across three countries.",
+      "bestTime": "March – November",
+      "recommendedDuration": "Half Day",
+      "rating": 4.5,
+      "distance": 117,
+      "coordinates": {
+        "lat": 32.653,
+        "lng": 35.6847
+      },
+      "image": "assets/umm-qais.webp",
+      "heroImage": "assets/umm-qais.webp",
+      "perfectFor": [
+        "History lovers",
+        "Photography",
+        "Architecture"
+      ],
+      "historicalPeriod": "Roman Empire",
+      "isHiddenGem": true,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Umm_Qais",
+      "ratingLabel": "Demo guide score",
+      "images": [
+        {
+          "src": "assets/umm-qais.webp",
+          "alt": "Umm Qais — Wikimedia Commons photograph",
+          "credit": "Daniel Case",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Modern_Umm_Qais,_Jordan.jpg",
+          "modifications": "Resized and converted to WebP for web delivery."
+        }
+      ],
+      "practical": {
+        "entryPrice": "Jordanian 0.25 / international 5 JOD. Published ministry rate; reconfirm before visiting.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "March – November. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Irbid, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Umm_Qais",
+        "verification": "Published ministry admission listing checked 2026-09-28. Hours and transport schedules are not verified.",
+        "priceSourceUrl": "https://www.mota.gov.jo/EN/Pages/Entrance_Fees"
+      }
+    },
+    {
+      "id": "dana",
+      "name": "Dana Biosphere Reserve",
+      "arabicName": "محمية ضانا",
+      "region": "South Jordan",
+      "regionCity": "Tafilah, Jordan",
+      "category": "Nature",
+      "tags": [
+        "Biosphere",
+        "Hiking",
+        "Wildlife",
+        "Village",
+        "Hidden Gem"
+      ],
+      "description": "Explore a varied reserve landscape of highlands, valleys and desert, with Dana village at its edge.",
+      "whyVisit": "Hike through one of the most biodiverse landscapes in the Middle East, where Nubian ibex roam clifftops above a medieval village that feels untouched by time.",
+      "bestTime": "March – May, Sep – Nov",
+      "recommendedDuration": "2–3 Days",
+      "rating": 4.7,
+      "distance": 186,
+      "coordinates": {
+        "lat": 30.6768,
+        "lng": 35.6106
+      },
+      "image": "assets/dana.webp",
+      "heroImage": "assets/dana.webp",
+      "perfectFor": [
+        "Nature lovers",
+        "Hiking",
+        "Wildlife"
+      ],
+      "historicalPeriod": "Natural Reserve",
+      "isHiddenGem": true,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dana_Biosphere_Reserve",
+      "ratingLabel": "Demo guide score",
+      "images": [
+        {
+          "src": "assets/dana.webp",
+          "alt": "Dana Biosphere Reserve — Wikimedia Commons photograph",
+          "credit": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Dana_Reserve_02.jpg",
+          "modifications": "Resized and converted to WebP for web delivery."
+        }
+      ],
+      "practical": {
+        "entryPrice": "Jordanian 2 / resident 5 / international 10 JOD, plus 16% tax. Published ministry rate; reconfirm before visiting.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "March – May, Sep – Nov. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Tafilah, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Dana_Biosphere_Reserve",
+        "verification": "Published ministry admission listing checked 2026-09-28. Hours and transport schedules are not verified.",
+        "priceSourceUrl": "https://www.mota.gov.jo/EN/Pages/Entrance_Fees"
+      }
+    },
+    {
+      "id": "baptism-site",
+      "name": "Baptism Site",
+      "arabicName": "موقع المغطس",
+      "region": "Central Jordan",
+      "regionCity": "Jordan Valley",
+      "category": "Religion",
+      "tags": [
+        "UNESCO",
+        "Biblical",
+        "Sacred",
+        "Historic"
+      ],
+      "description": "Bethany Beyond the Jordan — the site where John the Baptist baptized Jesus Christ. UNESCO World Heritage Site and one of the most sacred locations in Christianity.",
+      "whyVisit": "Stand at one of the most sacred sites in Christianity, on the very banks of the Jordan River where spiritual history was written.",
+      "bestTime": "October – April",
+      "recommendedDuration": "Half Day",
+      "rating": 4.6,
+      "distance": 45,
+      "coordinates": {
+        "lat": 31.8371,
+        "lng": 35.5501
+      },
+      "image": "assets/baptism-site.webp",
+      "heroImage": "assets/baptism-site.webp",
+      "perfectFor": [
+        "Spiritual travelers",
+        "History lovers",
+        "Photography"
+      ],
+      "historicalPeriod": "Biblical Era",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Al-Maghtas",
+      "ratingLabel": "Demo guide score",
+      "images": [
+        {
+          "src": "assets/baptism-site.webp",
+          "alt": "Baptism Site — Wikimedia Commons photograph",
+          "credit": "Producer (talk)",
+          "license": "CC BY 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+          "source": "https://commons.wikimedia.org/wiki/File:Bethany_(5).JPG",
+          "modifications": "Resized and converted to WebP for web delivery."
+        }
+      ],
+      "practical": {
+        "entryPrice": "Jordanian 3 / other Arab nationalities 5 / other international 12 JOD. Published ministry rate; reconfirm before visiting.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "October – April. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Jordan Valley. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Al-Maghtas",
+        "verification": "Published ministry admission listing checked 2026-09-28. Hours and transport schedules are not verified.",
+        "priceSourceUrl": "https://www.mota.gov.jo/EN/Pages/Entrance_Fees"
+      }
+    },
+    {
+      "id": "main-hot-springs",
+      "name": "Ma'in Hot Springs",
+      "arabicName": "حمامات ماعين",
+      "region": "Central Jordan",
+      "regionCity": "Madaba, Jordan",
+      "category": "Wellness",
+      "tags": [
+        "Hot Springs",
+        "Waterfall",
+        "Thermal"
+      ],
+      "description": "Discover thermal springs and waterfalls in a dramatic valley near Madaba.",
+      "whyVisit": "Enjoy the scenery of a warm-water oasis among rocky hills.",
+      "bestTime": "Year-round",
+      "recommendedDuration": "1 Day",
+      "rating": 4.5,
+      "distance": 64,
+      "coordinates": {
+        "lat": 31.6089,
+        "lng": 35.6101
+      },
+      "image": "assets/main-hot-springs.webp",
+      "heroImage": "assets/main-hot-springs.webp",
+      "perfectFor": [
+        "Wellness",
+        "Relaxation",
+        "Couples"
+      ],
+      "isHiddenGem": true,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ma%27in_Hot_Springs",
+      "ratingLabel": "Demo guide score",
+      "images": [
+        {
+          "src": "assets/main-hot-springs.webp",
+          "alt": "Ma'in Hot Springs — Wikimedia Commons photograph",
+          "credit": "Mervat Salman",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Ma%27in_Hot_Springs2.JPG",
+          "modifications": "Resized and converted to WebP for web delivery."
+        }
+      ],
+      "practical": {
+        "entryPrice": "Access depends on the beach, spa or bathing facility. Request a current day-pass quote and check towel, pool and meal inclusions; no fixed price is verified.",
+        "openingHours": "Use the opening hours of your chosen bathing facility; confirm day-pass admission and last entry before traveling.",
+        "bestTime": "Year-round. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Madaba, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Ma%27in_Hot_Springs",
+        "verification": "Planning guidance; live fees and schedules require confirmation."
+      }
+    },
+    {
+      "id": "madaba",
+      "name": "Madaba",
+      "arabicName": "مادبا",
+      "region": "Central Jordan",
+      "regionCity": "Madaba, Jordan",
+      "category": "Culture",
+      "tags": [
+        "Mosaic",
+        "Byzantine",
+        "Christian",
+        "History"
+      ],
+      "description": "The City of Mosaics. Madaba is home to the world's oldest surviving map of the Holy Land — a 6th-century Byzantine mosaic in the floor of St. George's Church.",
+      "whyVisit": "See the historic mosaic map in St. George’s Church, then explore the city’s streets and archaeological heritage.",
+      "bestTime": "March – November",
+      "recommendedDuration": "Half Day",
+      "rating": 4.4,
+      "distance": 30,
+      "coordinates": {
+        "lat": 31.7167,
+        "lng": 35.8
+      },
+      "image": "assets/madaba-photo.webp",
+      "heroImage": "assets/madaba-photo.webp",
+      "perfectFor": [
+        "History lovers",
+        "Culture",
+        "Photography"
+      ],
+      "historicalPeriod": "Byzantine Era",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Madaba",
+      "ratingLabel": "Demo guide score",
+      "images": [
+        {
+          "src": "assets/madaba-photo.webp",
+          "alt": "Madaba",
+          "credit": "Ywpark2003 Prof. Yong Woo Park",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "https://commons.wikimedia.org/wiki/File:Madaba_Mosaic_Map_depicting_Jerusalem_and_the_Dead_Sea_Church_of_St_George.jpg",
+          "modifications": "Resized and converted to WebP for web delivery."
+        }
+      ],
+      "practical": {
+        "entryPrice": "No single admission ticket covers the city. Museums, archaeological sites, beaches and activities may charge separately; confirm with each venue.",
+        "openingHours": "City streets have no single visitor timetable. Individual museums, shops and attractions set their own hours; check the venues on your route.",
+        "bestTime": "March – November. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Madaba, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Madaba",
+        "verification": "Planning guidance; live fees and schedules require confirmation."
+      }
+    },
+    {
+      "id": "wadi-bin-hammad",
+      "name": "Wadi Bin Hammad",
+      "arabicName": "وادي بن حماد",
+      "region": "South Jordan",
+      "regionCity": "Karak, Jordan",
+      "category": "Adventure",
+      "tags": [
+        "Hidden Gem",
+        "Local discovery"
+      ],
+      "description": "Follow a spring-fed canyon near Karak, with vegetation tucked beneath its steep walls.",
+      "whyVisit": "A different side of southern Jordan, best explored with local guidance.",
+      "bestTime": "Check seasonal access locally",
+      "recommendedDuration": "Half to full day",
+      "rating": null,
+      "distance": null,
+      "perfectFor": [
+        "Slow travel",
+        "Photography"
+      ],
+      "isHiddenGem": true,
+      "coordinates": {
+        "lat": 31.2203,
+        "lng": 35.6897
+      },
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:07_Wadi_Bin_Hammad_Tropical_Rain_Forest_Trail_-_Descent_into_the_Valley_-_panoramio.jpg",
+      "ratingLabel": "Not scored",
+      "images": [
+        {
+          "src": "assets/wadi-bin-hammad-photo.webp",
+          "alt": "Wadi Bin Hammad",
+          "credit": "hikinginjordan",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:07_Wadi_Bin_Hammad_Tropical_Rain_Forest_Trail_-_Descent_into_the_Valley_-_panoramio.jpg",
+          "modifications": "Resized and converted to WebP for web delivery."
+        }
+      ],
+      "image": "assets/wadi-bin-hammad-photo.webp",
+      "heroImage": "assets/wadi-bin-hammad-photo.webp",
+      "practical": {
+        "entryPrice": "Current admission fee is not verified. Confirm the price for your nationality and any activity or guide fees before booking.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "Check seasonal access locally. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Karak, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:07_Wadi_Bin_Hammad_Tropical_Rain_Forest_Trail_-_Descent_into_the_Valley_-_panoramio.jpg",
+        "verification": "Planning guidance; live fees and schedules require confirmation."
+      }
+    },
+    {
+      "id": "dana-villages",
+      "name": "Dana Villages",
+      "arabicName": "قرى ضانا",
+      "region": "South Jordan",
+      "regionCity": "Tafilah, Jordan",
+      "category": "Culture",
+      "tags": [
+        "Hidden Gem",
+        "Local discovery"
+      ],
+      "description": "Explore the stone village of Dana above a wide valley and meet the landscape at a slower pace.",
+      "whyVisit": "Village heritage and the surrounding reserve belong in the same journey.",
+      "bestTime": "Check seasonal access locally",
+      "recommendedDuration": "Half to full day",
+      "rating": null,
+      "distance": null,
+      "perfectFor": [
+        "Slow travel",
+        "Photography"
+      ],
+      "isHiddenGem": true,
+      "coordinates": {
+        "lat": 30.6768,
+        "lng": 35.6106
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dana%2C_Jordan",
+      "ratingLabel": "Not scored",
+      "images": [
+        {
+          "src": "assets/dana-villages.webp",
+          "alt": "Dana Villages — Wikimedia Commons photograph",
+          "credit": "Adeeb Atwan",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Dana_Village_-_panoramio.jpg",
+          "modifications": "Resized and converted to WebP for web delivery."
+        }
+      ],
+      "image": "assets/dana-villages.webp",
+      "heroImage": "assets/dana-villages.webp",
+      "practical": {
+        "entryPrice": "Current admission fee is not verified. Confirm the price for your nationality and any activity or guide fees before booking.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "Check seasonal access locally. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Tafilah, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Dana%2C_Jordan",
+        "verification": "Planning guidance; live fees and schedules require confirmation."
+      }
+    },
+    {
+      "id": "wadi-al-hasa",
+      "name": "Wadi Al Hasa",
+      "arabicName": "وادي الحسا",
+      "region": "South Jordan",
+      "regionCity": "Karak, Jordan",
+      "category": "Adventure",
+      "tags": [
+        "Hidden Gem",
+        "Local discovery"
+      ],
+      "description": "Discover a long valley running toward the southern Dead Sea, with changing rock formations and pockets of greenery.",
+      "whyVisit": "A less familiar canyon landscape for experienced, locally guided exploration.",
+      "bestTime": "Check seasonal access locally",
+      "recommendedDuration": "Half to full day",
+      "rating": null,
+      "distance": null,
+      "perfectFor": [
+        "Slow travel",
+        "Photography"
+      ],
+      "isHiddenGem": true,
+      "coordinates": {
+        "lat": 31.0342,
+        "lng": 35.475
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Wadi_al-Hasa",
+      "ratingLabel": "Not scored",
+      "images": [
+        {
+          "src": "assets/wadi-al-hasa-photo.webp",
+          "alt": "Wadi Al Hasa",
+          "credit": "יעקב",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:WadiHasa4016.JPG",
+          "modifications": "Resized and converted to WebP for web delivery."
+        }
+      ],
+      "image": "assets/wadi-al-hasa-photo.webp",
+      "heroImage": "assets/wadi-al-hasa-photo.webp",
+      "practical": {
+        "entryPrice": "Current admission fee is not verified. Confirm the price for your nationality and any activity or guide fees before booking.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "Check seasonal access locally. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Karak, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Wadi_al-Hasa",
+        "verification": "Planning guidance; live fees and schedules require confirmation."
+      }
+    },
+    {
+      "id": "umm-qais-viewpoints",
+      "name": "Umm Qais Viewpoints",
+      "arabicName": "مناظر أم قيس",
+      "region": "North Jordan",
+      "regionCity": "Irbid, Jordan",
+      "category": "Culture",
+      "tags": [
+        "Hidden Gem",
+        "Local discovery"
+      ],
+      "description": "Pause at the viewpoints around ancient Gadara and look across the Jordan Valley.",
+      "whyVisit": "Pair the basalt ruins with time to enjoy the surrounding landscape.",
+      "bestTime": "Check seasonal access locally",
+      "recommendedDuration": "Half to full day",
+      "rating": null,
+      "distance": null,
+      "perfectFor": [
+        "Slow travel",
+        "Photography"
+      ],
+      "isHiddenGem": true,
+      "coordinates": {
+        "lat": 32.6538,
+        "lng": 35.6835
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Umm_Qais",
+      "ratingLabel": "Not scored",
+      "images": [
+        {
+          "src": "assets/umm-qais-panorama.webp",
+          "alt": "Panoramic view from Umm Qais toward the Yarmouk Valley and Sea of Galilee",
+          "credit": "Daniel Case",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Umm_Qais_Galilee-Golan_panorama.jpg",
+          "modifications": "Panorama resized and converted to WebP for web delivery."
+        }
+      ],
+      "image": "assets/umm-qais-panorama.webp",
+      "heroImage": "assets/umm-qais-panorama.webp",
+      "practical": {
+        "entryPrice": "Current admission fee is not verified. Confirm the price for your nationality and any activity or guide fees before booking.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "Check seasonal access locally. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Irbid, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Umm_Qais",
+        "verification": "Planning guidance; live fees and schedules require confirmation."
+      }
+    },
+    {
+      "id": "aqaba",
+      "name": "Aqaba",
+      "arabicName": "العقبة",
+      "region": "South Jordan",
+      "regionCity": "Aqaba, Jordan",
+      "category": "Nature",
+      "tags": [
+        "Nature",
+        "Local discovery"
+      ],
+      "description": "Discover Jordan’s Red Sea city, with coastal promenades and coral reef experiences.",
+      "whyVisit": "Take time for the coast after exploring Jordan’s desert landscapes.",
+      "bestTime": "Spring and autumn; check local conditions",
+      "recommendedDuration": "Half day",
+      "rating": null,
+      "distance": null,
+      "perfectFor": [
+        "Photography",
+        "Discovery"
+      ],
+      "isHiddenGem": false,
+      "coordinates": {
+        "lat": 29.5319,
+        "lng": 35.0061
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Aqaba",
+      "ratingLabel": "Not scored",
+      "images": [
+        {
+          "src": "assets/aqaba.webp",
+          "alt": "Aqaba — Wikimedia Commons photograph",
+          "credit": "Freedom's Falcon",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:AQABA_2.png",
+          "modifications": "Resized and converted to WebP for web delivery."
+        }
+      ],
+      "image": "assets/aqaba.webp",
+      "heroImage": "assets/aqaba.webp",
+      "practical": {
+        "entryPrice": "No single admission ticket covers the city. Museums, archaeological sites, beaches and activities may charge separately; confirm with each venue.",
+        "openingHours": "City streets have no single visitor timetable. Individual museums, shops and attractions set their own hours; check the venues on your route.",
+        "bestTime": "Spring and autumn; check local conditions. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Aqaba, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Aqaba",
+        "verification": "Planning guidance; live fees and schedules require confirmation."
+      }
+    },
+    {
+      "id": "al-salt",
+      "name": "Al Salt Old City",
+      "arabicName": "السلط",
+      "region": "Central Jordan",
+      "regionCity": "Balqa, Jordan",
+      "category": "Culture",
+      "tags": [
+        "Culture",
+        "Local discovery"
+      ],
+      "description": "Walk streets framed by warm limestone buildings and the heritage of a trading city.",
+      "whyVisit": "Explore historic architecture and everyday life on foot.",
+      "bestTime": "Spring and autumn; check local conditions",
+      "recommendedDuration": "Half day",
+      "rating": null,
+      "distance": null,
+      "perfectFor": [
+        "Photography",
+        "Discovery"
+      ],
+      "isHiddenGem": false,
+      "coordinates": {
+        "lat": 32.0392,
+        "lng": 35.7272
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Al-Salt",
+      "ratingLabel": "Not scored",
+      "images": [
+        {
+          "src": "assets/al-salt-photo.webp",
+          "alt": "Al Salt Old City",
+          "credit": "Ahmad Qaisieh",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:As-Salt_City,_Jordan.jpg",
+          "modifications": "Resized and converted to WebP for web delivery."
+        }
+      ],
+      "image": "assets/al-salt-photo.webp",
+      "heroImage": "assets/al-salt-photo.webp",
+      "practical": {
+        "entryPrice": "No single admission ticket covers the city. Museums, archaeological sites, beaches and activities may charge separately; confirm with each venue.",
+        "openingHours": "City streets have no single visitor timetable. Individual museums, shops and attractions set their own hours; check the venues on your route.",
+        "bestTime": "Spring and autumn; check local conditions. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Balqa, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Al-Salt",
+        "verification": "Planning guidance; live fees and schedules require confirmation."
+      }
+    },
+    {
+      "id": "umm-al-jimal",
+      "name": "Umm Al Jimal",
+      "arabicName": "أم الجمال",
+      "region": "North Jordan",
+      "regionCity": "Mafraq, Jordan",
+      "category": "Culture",
+      "tags": [
+        "Culture",
+        "Local discovery"
+      ],
+      "description": "Discover an archaeological settlement built from dark basalt in northern Jordan.",
+      "whyVisit": "Look closely at the stone houses, courtyards and towers.",
+      "bestTime": "Spring and autumn; check local conditions",
+      "recommendedDuration": "Half day",
+      "rating": null,
+      "distance": null,
+      "perfectFor": [
+        "Photography",
+        "Discovery"
+      ],
+      "isHiddenGem": true,
+      "coordinates": {
+        "lat": 32.3274,
+        "lng": 36.3696
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Umm_el-Jimal",
+      "ratingLabel": "Not scored",
+      "images": [
+        {
+          "src": "assets/umm-al-jimal.webp",
+          "alt": "Umm Al Jimal — Wikimedia Commons photograph",
+          "credit": "Herrmoody at English Wikipedia",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "source": "https://commons.wikimedia.org/wiki/File:Uejhousexviii.jpg",
+          "modifications": "Resized and converted to WebP for web delivery."
+        }
+      ],
+      "image": "assets/umm-al-jimal.webp",
+      "heroImage": "assets/umm-al-jimal.webp",
+      "practical": {
+        "entryPrice": "Jordanian 0.25 / international 2 JOD. Published ministry rate; reconfirm before visiting.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "Spring and autumn; check local conditions. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Mafraq, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Umm_el-Jimal",
+        "verification": "Published ministry admission listing checked 2026-09-28. Hours and transport schedules are not verified.",
+        "priceSourceUrl": "https://www.mota.gov.jo/EN/Pages/Entrance_Fees"
+      }
+    },
+    {
+      "id": "karak",
+      "name": "Karak Castle",
+      "arabicName": "قلعة الكرك",
+      "region": "South Jordan",
+      "regionCity": "Karak, Jordan",
+      "category": "Culture",
+      "tags": [
+        "Culture",
+        "Local discovery"
+      ],
+      "description": "Explore the passages and ramparts of a hilltop fortress above Karak.",
+      "whyVisit": "Add a castle stop to a journey along the King’s Highway.",
+      "bestTime": "Spring and autumn; check local conditions",
+      "recommendedDuration": "Half day",
+      "rating": null,
+      "distance": null,
+      "perfectFor": [
+        "Photography",
+        "Discovery"
+      ],
+      "isHiddenGem": false,
+      "coordinates": {
+        "lat": 31.1808,
+        "lng": 35.7012
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kerak_Castle",
+      "ratingLabel": "Not scored",
+      "images": [
+        {
+          "src": "assets/karak-photo.webp",
+          "alt": "Karak Castle",
+          "credit": "Berthold Werner",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Kerak_BW_1.JPG",
+          "modifications": "Resized and converted to WebP for web delivery."
+        }
+      ],
+      "image": "assets/karak-photo.webp",
+      "heroImage": "assets/karak-photo.webp",
+      "practical": {
+        "entryPrice": "Castle: Jordanian 0.25 / international 2 JOD. Published ministry rate; reconfirm before visiting.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "Spring and autumn; check local conditions. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Karak, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Kerak_Castle",
+        "verification": "Published ministry admission listing checked 2026-09-28. Hours and transport schedules are not verified.",
+        "priceSourceUrl": "https://www.mota.gov.jo/EN/Pages/Entrance_Fees"
+      }
+    },
+    {
+      "id": "shobak",
+      "name": "Shobak Castle",
+      "arabicName": "قلعة الشوبك",
+      "region": "South Jordan",
+      "regionCity": "Ma’an, Jordan",
+      "category": "Culture",
+      "tags": [
+        "Culture",
+        "Local discovery"
+      ],
+      "description": "Visit the remains of a hilltop castle in the landscape north of Petra.",
+      "whyVisit": "Discover another chapter of Jordan’s medieval history.",
+      "bestTime": "Spring and autumn; check local conditions",
+      "recommendedDuration": "Half day",
+      "rating": null,
+      "distance": null,
+      "perfectFor": [
+        "Photography",
+        "Discovery"
+      ],
+      "isHiddenGem": true,
+      "coordinates": {
+        "lat": 30.531,
+        "lng": 35.5608
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Montreal_%28castle%29",
+      "ratingLabel": "Not scored",
+      "images": [
+        {
+          "src": "assets/shobak.webp",
+          "alt": "Shobak Castle — Wikimedia Commons photograph",
+          "credit": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Montreal_Castle_Visitor_center.jpg",
+          "modifications": "Resized and converted to WebP for web delivery."
+        }
+      ],
+      "image": "assets/shobak.webp",
+      "heroImage": "assets/shobak.webp",
+      "practical": {
+        "entryPrice": "Castle: Jordanian 0.25 / international 1 JOD. Published ministry rate; reconfirm before visiting.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "Spring and autumn; check local conditions. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Ma’an, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Montreal_%28castle%29",
+        "verification": "Published ministry admission listing checked 2026-09-28. Hours and transport schedules are not verified.",
+        "priceSourceUrl": "https://www.mota.gov.jo/EN/Pages/Entrance_Fees"
+      }
+    },
+    {
+      "id": "seven-sleepers",
+      "name": "Cave of Seven Sleepers",
+      "arabicName": "كهف أهل الكهف",
+      "region": "Central Jordan",
+      "regionCity": "Amman, Jordan",
+      "category": "Religion",
+      "tags": [
+        "Religion",
+        "Local discovery"
+      ],
+      "description": "Visit a site near Amman associated with the story of the Seven Sleepers.",
+      "whyVisit": "Explore a place of spiritual tradition and local heritage.",
+      "bestTime": "Spring and autumn; check local conditions",
+      "recommendedDuration": "Half day",
+      "rating": null,
+      "distance": null,
+      "perfectFor": [
+        "Photography",
+        "Discovery"
+      ],
+      "isHiddenGem": false,
+      "coordinates": {
+        "lat": 31.8993,
+        "lng": 35.973
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cave_of_the_Seven_Sleepers",
+      "ratingLabel": "Not scored",
+      "images": [
+        {
+          "src": "assets/seven-sleepers.webp",
+          "alt": "Cave of Seven Sleepers — Wikimedia Commons photograph",
+          "credit": "JoTB",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Seven_Sleeper_Cave_Entrance.jpg",
+          "modifications": "Resized and converted to WebP for web delivery."
+        }
+      ],
+      "image": "assets/seven-sleepers.webp",
+      "heroImage": "assets/seven-sleepers.webp",
+      "practical": {
+        "entryPrice": "Current admission fee is not verified. Confirm the price for your nationality and any activity or guide fees before booking.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "Spring and autumn; check local conditions. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Amman, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Cave_of_the_Seven_Sleepers",
+        "verification": "Planning guidance; live fees and schedules require confirmation."
+      }
+    },
+    {
+      "id": "ajloun-forest",
+      "name": "Ajloun Forest Reserve",
+      "arabicName": "محمية غابات عجلون",
+      "region": "North Jordan",
+      "regionCity": "Ajloun, Jordan",
+      "category": "Nature",
+      "tags": [
+        "Nature",
+        "Local discovery"
+      ],
+      "description": "Explore the wooded hills of northern Jordan and their walking trails.",
+      "whyVisit": "Make space for oak forests, birdlife and a slower pace.",
+      "bestTime": "Spring and autumn; check local conditions",
+      "recommendedDuration": "Half day",
+      "rating": null,
+      "distance": null,
+      "perfectFor": [
+        "Photography",
+        "Discovery"
+      ],
+      "isHiddenGem": false,
+      "coordinates": {
+        "lat": 32.38,
+        "lng": 35.763
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ajloun_Forest_Reserve",
+      "ratingLabel": "Not scored",
+      "images": [
+        {
+          "src": "assets/ajloun-forest.webp",
+          "alt": "Ajloun Forest Reserve — Wikimedia Commons photograph",
+          "credit": "Smart Viral at English Wikipedia",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Ajlun_Green.jpg",
+          "modifications": "Resized and converted to WebP for web delivery."
+        }
+      ],
+      "image": "assets/ajloun-forest.webp",
+      "heroImage": "assets/ajloun-forest.webp",
+      "practical": {
+        "entryPrice": "Jordanian 2.50 / resident 6 / international 8 JOD, plus 16% tax. Published ministry rate; reconfirm before visiting.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "Spring and autumn; check local conditions. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Ajloun, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Ajloun_Forest_Reserve",
+        "verification": "Published ministry admission listing checked 2026-09-28. Hours and transport schedules are not verified.",
+        "priceSourceUrl": "https://www.mota.gov.jo/EN/Pages/Entrance_Fees"
+      }
+    },
+    {
+      "id": "dibeen",
+      "name": "Dibeen Forest",
+      "arabicName": "غابات دبين",
+      "region": "North Jordan",
+      "regionCity": "Jerash, Jordan",
+      "category": "Nature",
+      "tags": [
+        "Nature",
+        "Local discovery"
+      ],
+      "description": "Discover pine and oak woodland in the hills near Jerash.",
+      "whyVisit": "Combine forest scenery with a northern heritage route.",
+      "bestTime": "Spring and autumn; check local conditions",
+      "recommendedDuration": "Half day",
+      "rating": null,
+      "distance": null,
+      "perfectFor": [
+        "Photography",
+        "Discovery"
+      ],
+      "isHiddenGem": false,
+      "coordinates": {
+        "lat": 32.245,
+        "lng": 35.824
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dibeen_Forest_Reserve",
+      "ratingLabel": "Not scored",
+      "images": [
+        {
+          "src": "assets/dibeen.webp",
+          "alt": "Dibeen Forest — Wikimedia Commons photograph",
+          "credit": "The original uploader was Ldud at English Wikipedia.",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Dibeen_Forest_Reserve.jpg",
+          "modifications": "Resized and converted to WebP for web delivery."
+        }
+      ],
+      "image": "assets/dibeen.webp",
+      "heroImage": "assets/dibeen.webp",
+      "practical": {
+        "entryPrice": "Small car 2 / large car 3 JOD, plus 16% tax. Published ministry rate; reconfirm before visiting.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "Spring and autumn; check local conditions. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Jerash, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Dibeen_Forest_Reserve",
+        "verification": "Published ministry admission listing checked 2026-09-28. Hours and transport schedules are not verified.",
+        "priceSourceUrl": "https://www.mota.gov.jo/EN/Pages/Entrance_Fees"
+      }
+    },
+    {
+      "id": "afra",
+      "name": "Afra Hot Springs",
+      "arabicName": "حمامات عفرا",
+      "region": "South Jordan",
+      "regionCity": "Tafilah, Jordan",
+      "category": "Wellness",
+      "tags": [
+        "Wellness",
+        "Local discovery"
+      ],
+      "description": "Explore the thermal spring area in the hills north of Tafilah.",
+      "whyVisit": "Add a quiet landscape stop to a southern Jordan journey.",
+      "bestTime": "Spring and autumn; check local conditions",
+      "recommendedDuration": "Half day",
+      "rating": null,
+      "distance": null,
+      "perfectFor": [
+        "Photography",
+        "Discovery"
+      ],
+      "isHiddenGem": true,
+      "coordinates": {
+        "lat": 30.969,
+        "lng": 35.64
+      },
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Afra_-_panoramio_(1).jpg",
+      "ratingLabel": "Not scored",
+      "images": [
+        {
+          "src": "assets/afra-photo.webp",
+          "alt": "Afra Hot Springs",
+          "credit": "Adeeb Atwan",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Afra_-_panoramio_(1).jpg",
+          "modifications": "Resized and converted to WebP for web delivery."
+        }
+      ],
+      "image": "assets/afra-photo.webp",
+      "heroImage": "assets/afra-photo.webp",
+      "practical": {
+        "entryPrice": "Access depends on the beach, spa or bathing facility. Request a current day-pass quote and check towel, pool and meal inclusions; no fixed price is verified.",
+        "openingHours": "Use the opening hours of your chosen bathing facility; confirm day-pass admission and last entry before traveling.",
+        "bestTime": "Spring and autumn; check local conditions. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Tafilah, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Afra_-_panoramio_(1).jpg",
+        "verification": "Planning guidance; live fees and schedules require confirmation."
+      }
+    },
+    {
+      "id": "al-himma",
+      "name": "Al Himma Hot Springs",
+      "arabicName": "الحمة الأردنية",
+      "region": "North Jordan",
+      "regionCity": "Irbid, Jordan",
+      "category": "Wellness",
+      "tags": [
+        "Wellness",
+        "Local discovery"
+      ],
+      "description": "Discover the northern Jordan Valley’s thermal-spring landscape.",
+      "whyVisit": "Explore the valley beyond its better-known archaeological sites.",
+      "bestTime": "Spring and autumn; check local conditions",
+      "recommendedDuration": "Half day",
+      "rating": null,
+      "distance": null,
+      "perfectFor": [
+        "Photography",
+        "Discovery"
+      ],
+      "isHiddenGem": true,
+      "coordinates": {
+        "lat": 32.681,
+        "lng": 35.668
+      },
+      "sourceUrl": "https://www.hiddenmediterranean.net/en/poi/natural-hot-spring-of-al-himmah/",
+      "ratingLabel": "Not scored",
+      "images": [
+        {
+          "src": "assets/al-himma-photo.webp",
+          "credit": "Daniel Case",
+          "license": "CC BY-SA 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Al-Himma,_Jordan,_from_Umm_Qais.jpg",
+          "modifications": "Resized and converted to WebP for web delivery."
+        }
+      ],
+      "image": "assets/al-himma-photo.webp",
+      "heroImage": "assets/al-himma-photo.webp",
+      "practical": {
+        "entryPrice": "Access depends on the beach, spa or bathing facility. Request a current day-pass quote and check towel, pool and meal inclusions; no fixed price is verified.",
+        "openingHours": "Use the opening hours of your chosen bathing facility; confirm day-pass admission and last entry before traveling.",
+        "bestTime": "Spring and autumn; check local conditions. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Irbid, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://www.hiddenmediterranean.net/en/poi/natural-hot-spring-of-al-himmah/",
+        "verification": "Planning guidance; live fees and schedules require confirmation."
+      }
+    },
+    {
+      "id": "amman",
+      "name": "Amman Citadel",
+      "arabicName": "جبل القلعة",
+      "region": "Central Jordan",
+      "regionCity": "Amman, Jordan",
+      "category": "Culture",
+      "tags": [
+        "Culture",
+        "Local discovery"
+      ],
+      "description": "Explore layers of ancient history on a hill overlooking the capital.",
+      "whyVisit": "Begin your journey with a panoramic introduction to Amman.",
+      "bestTime": "Spring and autumn; check local conditions",
+      "recommendedDuration": "Half day",
+      "rating": null,
+      "distance": null,
+      "perfectFor": [
+        "Photography",
+        "Discovery"
+      ],
+      "isHiddenGem": false,
+      "coordinates": {
+        "lat": 31.9547,
+        "lng": 35.9349
+      },
+      "sourceUrl": "https://en.wikipedia.org/wiki/Amman_Citadel",
+      "ratingLabel": "Not scored",
+      "images": [
+        {
+          "src": "assets/amman.webp",
+          "alt": "Amman Citadel — Wikimedia Commons photograph",
+          "credit": "David Bjorgen",
+          "license": "CC BY 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+          "source": "https://commons.wikimedia.org/wiki/File:Amman_Citadel.jpg",
+          "modifications": "Resized and converted to WebP for web delivery."
+        }
+      ],
+      "image": "assets/amman.webp",
+      "heroImage": "assets/amman.webp",
+      "practical": {
+        "entryPrice": "Citadel: Jordanian 0.25 / international 3 JOD. Published ministry rate; reconfirm before visiting.",
+        "openingHours": "Current hours are not verified. Confirm opening, last admission and seasonal closures before departure.",
+        "bestTime": "Spring and autumn; check local conditions. For outdoor visits, prefer daylight and avoid midday heat.",
+        "publicTransport": "Ask a local transport operator about services toward Amman, Jordan. A direct service to the entrance is not verified. Arrange the final transfer and return in advance.",
+        "privateCar": "Use the destination coordinates for orientation. Confirm the visitor entrance and parking before driving; the pin may be inside the site.",
+        "tips": "Allow time for traffic, walking and breaks. Check weather and access restrictions; carry water and arrange a return transfer for remote locations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Amman_Citadel",
+        "verification": "Published ministry admission listing checked 2026-09-28. Hours and transport schedules are not verified.",
+        "priceSourceUrl": "https://www.mota.gov.jo/EN/Pages/Entrance_Fees"
+      }
+    }
+  ],
+  "experiences": [
+    {
+      "id": "desert-adventure",
+      "title": "Desert Adventure",
+      "subtitle": "The classic south Jordan expedition",
+      "duration": "5 Days",
+      "difficulty": "Moderate",
+      "coverImage": "assets/petra.webp",
+      "bestFor": "Adventure lovers, photographers",
+      "route": [
+        "Amman",
+        "Petra",
+        "Wadi Rum",
+        "Aqaba"
+      ],
+      "suggestedStops": [
+        {
+          "between": [
+            "Amman",
+            "Petra"
+          ],
+          "name": "Karak Castle & Kings Highway",
+          "description": "En-route stop at the massive 12th-century Crusader fortress standing high above the desert canyon.",
+          "category": "History"
+        },
+        {
+          "between": [
+            "Amman",
+            "Petra"
+          ],
+          "name": "Madaba Mosaics & Mount Nebo",
+          "description": "Optional morning detachment to view the ancient Byzantine Holy Land mosaic and Moses viewpoint.",
+          "category": "Culture"
+        },
+        {
+          "between": [
+            "Petra",
+            "Wadi Rum"
+          ],
+          "name": "Little Petra (Siq al-Barid)",
+          "description": "Explore the quieter Nabataean rock suburb, hidden dining caves, and painted frescoes.",
+          "category": "Hidden Gem"
+        },
+        {
+          "between": [
+            "Wadi Rum",
+            "Aqaba"
+          ],
+          "name": "Disi Desert Dunes",
+          "description": "Optional sunset camel drive through soft white sand dunes before descending to the Red Sea coast.",
+          "category": "Nature"
+        }
+      ],
+      "description": "Jordan's most legendary route. From the rose city of Petra to the Valley of the Moon, this journey through Jordan's south is a cinematic masterpiece of ancient civilizations and desert grandeur.",
+      "highlights": [
+        "Sleep in a Bedouin camp under the stars",
+        "Hike the Petra Monastery trail",
+        "Jeep safari through Wadi Rum",
+        "Dive in the Red Sea at Aqaba"
+      ],
+      "placeIds": [
+        "amman",
+        "petra",
+        "wadi-rum",
+        "aqaba"
+      ]
+    },
+    {
+      "id": "northern-heritage",
+      "title": "Northern Heritage Journey",
+      "subtitle": "Roman cities and medieval castles",
+      "duration": "3 Days",
+      "difficulty": "Easy",
+      "coverImage": "assets/ajloun.webp",
+      "bestFor": "History lovers, families",
+      "route": [
+        "Jerash",
+        "Ajloun Castle",
+        "Umm Qais"
+      ],
+      "suggestedStops": [
+        {
+          "between": [
+            "Jerash",
+            "Ajloun Castle"
+          ],
+          "name": "Dibbeen Forest Reserve",
+          "description": "Shaded oak and Aleppo pine forest trails perfect for an impromptu picnic surrounded by wildlife.",
+          "category": "Nature"
+        },
+        {
+          "between": [
+            "Ajloun Castle",
+            "Umm Qais"
+          ],
+          "name": "Pella (Tabaqat Fahl)",
+          "description": "Rarely visited ancient Decapolis ruins nestled in the lush Jordan Valley foothill slopes.",
+          "category": "Hidden Gem"
+        }
+      ],
+      "description": "Trace the footsteps of Romans, Crusaders, and the great Arab commanders who shaped this landscape. The north of Jordan hides some of the finest ancient ruins in the world.",
+      "highlights": [
+        "Watch sunset from Jerash's Temple of Artemis",
+        "Explore Ajloun's medieval battlements",
+        "Three-country panorama from Umm Qais",
+        "Lunch at a local farmhouse in the olive groves"
+      ],
+      "placeIds": [
+        "jerash",
+        "ajloun",
+        "umm-qais"
+      ]
+    },
+    {
+      "id": "nature-escape",
+      "title": "Nature & Canyon Escape",
+      "subtitle": "Jordan's living wilderness",
+      "duration": "4 Days",
+      "difficulty": "Challenging",
+      "coverImage": "assets/wadi-mujib.webp",
+      "bestFor": "Nature lovers, hikers",
+      "route": [
+        "Dana Biosphere",
+        "Wadi Mujib",
+        "Dead Sea"
+      ],
+      "suggestedStops": [
+        {
+          "between": [
+            "Dana Biosphere",
+            "Wadi Mujib"
+          ],
+          "name": "Wadi Bin Hammad Canyon",
+          "description": "An uncrowded warm water slot canyon with hanging gardens and blood-red sandstone cliffs.",
+          "category": "Hidden Gem"
+        },
+        {
+          "between": [
+            "Wadi Mujib",
+            "Dead Sea"
+          ],
+          "name": "Dead Sea Panorama Complex",
+          "description": "Perched high on the cliff edge with a museum and dramatic sunset vantage point over the salt sea.",
+          "category": "Viewpoint"
+        }
+      ],
+      "description": "From ancient stone villages on canyon's edge to rushing slot canyons and the saltiest sea on Earth — Jordan's natural world is astonishing in its range and drama.",
+      "highlights": [
+        "Hike the Wadi Dana trail at dawn",
+        "Canyoneer through Wadi Mujib's gorge",
+        "Float on the Dead Sea at sunset",
+        "Spot Nubian ibex in the wild"
+      ],
+      "placeIds": [
+        "dana",
+        "wadi-mujib",
+        "dead-sea"
+      ]
+    },
+    {
+      "id": "spiritual-journey",
+      "title": "Spiritual Pilgrimage",
+      "subtitle": "Along the ancient faith routes",
+      "duration": "3 Days",
+      "difficulty": "Easy",
+      "coverImage": "assets/mount-nebo.webp",
+      "bestFor": "Spiritual travelers, pilgrims",
+      "route": [
+        "Baptism Site",
+        "Mount Nebo",
+        "Madaba",
+        "Dead Sea"
+      ],
+      "suggestedStops": [
+        {
+          "between": [
+            "Baptism Site",
+            "Mount Nebo"
+          ],
+          "name": "Tell el-Kharrar (Elijah Hill)",
+          "description": "The sacred hill where Elijah is believed to have ascended to heaven in a chariot of fire.",
+          "category": "Spiritual"
+        },
+        {
+          "between": [
+            "Madaba",
+            "Dead Sea"
+          ],
+          "name": "Ma'in Thermal Hot Springs",
+          "description": "Optional afternoon soak in natural hot waterfalls flowing down volcanic cliffs into natural pools.",
+          "category": "Wellness"
+        }
+      ],
+      "description": "Follow the ancient pathways of prophets and pilgrims through the heart of the Holy Land. Jordan holds some of the most sacred sites in the world, and many remain beautifully uncrowded.",
+      "highlights": [
+        "Stand at the Baptism Site of Jesus",
+        "Survey three countries from Mount Nebo",
+        "Marvel at Byzantine mosaics in Madaba",
+        "Relax beside the waters of the Dead Sea"
+      ],
+      "placeIds": [
+        "baptism-site",
+        "mount-nebo",
+        "madaba",
+        "dead-sea"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#0c0a07" />
+    <meta
+      name="description"
+      content="Discover Jordan beyond the famous places. Explore ancient cities, hidden valleys and curated journeys, and keep your own travel journal."
+    />
+    <title>Discover Jordan — Beyond the famous places</title>
+    <link rel="icon" href="assets/compass.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css?v=20260929-visits" />
+    <script defer src="js/startup.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="#/" aria-label="Discover Jordan home"
+        ><img src="assets/compass.svg" width="38" height="38" alt="" /><span
+          >Discover Jordan<small>BEYOND THE FAMOUS PLACES</small></span
+        ></a
+      >
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-expanded="false"
+        aria-controls="navigation"
+      >
+        <span data-i18n="menu">Menu ☰</span>
+      </button>
+      <nav id="navigation" aria-label="Main navigation">
+        <a href="#/" data-i18n="home">Home</a><a href="#/explore" data-i18n="explore">Explore</a
+        ><a href="#/hidden" data-i18n="hidden">Hidden Jordan</a
+        ><a href="#/experiences" data-i18n="experiences">Experiences</a><a href="#/map" data-i18n="map">Map</a
+        ><a href="#/planner" data-i18n="forYou">For You</a><a href="#/journey" data-i18n="journey">My Journey</a>
+      </nav>
+      <button class="language-toggle" id="language-toggle" type="button">AR</button>
+      <button class="account-button" id="account-button">
+        <span data-i18n="signIn">Sign in ↗</span>
+      </button>
+    </header>
+    <div id="connection" class="connection" role="status" hidden></div>
+    <main id="main" tabindex="-1">
+      <div class="loading">
+        <span class="eyebrow">YOUR NEXT CHAPTER</span>
+        <h1>Jordan is waiting.</h1>
+        <p>Opening your field guide…</p>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div>
+        <a class="brand" href="#/">✦ Discover Jordan</a>
+        <p>A small country. A thousand ways to feel alive.</p>
+      </div>
+      <div>
+        <a href="#/about">About & image credits</a
+        ><a href="#/journey">Your travel journal</a
+        ><small>DISCOVER · EXPLORE · EXPERIENCE · REMEMBER</small>
+      </div>
+    </footer>
+    <dialog id="account-dialog" aria-labelledby="account-title">
+      <button
+        class="dialog-close"
+        data-close="account-dialog"
+        aria-label="Close account dialog"
+      >
+        ×
+      </button>
+      <span class="eyebrow">YOUR JOURNEY, EVERYWHERE</span>
+      <h2 id="account-title">Welcome, explorer.</h2>
+      <p id="account-info">
+        Sign in to keep your favorites and memories across devices.
+      </p>
+      <form id="preferences-form">
+        <fieldset>
+          <legend>What makes you want to travel?</legend>
+          <p class="muted small">Choose at least one interest. Your selections shape the places and route we recommend.</p>
+          <div id="interest-options" class="interest-options"></div>
+        </fieldset>
+        <div class="preference-fields">
+          <label>Trip length
+            <select name="days">
+              <option value="1">1 day</option>
+              <option value="2">2 days</option>
+              <option value="3">3 days</option>
+              <option value="4">4 days</option>
+              <option value="5">5 days</option>
+              <option value="6">6 days</option>
+              <option value="7">7 days</option>
+            </select>
+          </label>
+          <label>Travel pace
+            <select name="pace">
+              <option value="relaxed">Relaxed · 1 stop/day</option>
+              <option value="balanced">Balanced · 2 stops/day</option>
+              <option value="full">Full · 3 stops/day</option>
+            </select>
+          </label>
+          <label>Preferred region
+            <select name="region">
+              <option>Any region</option>
+              <option>North Jordan</option>
+              <option>Central Jordan</option>
+              <option>South Jordan</option>
+            </select>
+          </label>
+        </div>
+        <button class="button primary" type="submit" data-i18n="buildRecommendations">Build my recommendations ↗</button>
+      </form>
+      <div class="account-divider" id="account-divider"><span>Save your plan across devices</span></div>
+      <form id="auth-form">
+        <label
+          >Email<input
+            name="email"
+            type="email"
+            autocomplete="email"
+            required
+            maxlength="254" /></label
+        ><label
+          >Password<input
+            name="password"
+            type="password"
+            autocomplete="current-password"
+            aria-describedby="password-hint"
+            minlength="8"
+            maxlength="128"
+            required
+        /><small id="password-hint" class="muted">Use at least 8 characters.</small></label>
+        <div class="actions">
+          <button class="button primary" type="submit">Sign in</button
+          ><button class="button" type="button" id="register">
+            Create account
+          </button>
+        </div>
+        <button class="text-button" type="button" id="reset-password">
+          Forgot password?
+        </button>
+      </form>
+      <div id="signed-in" hidden>
+        <p id="account-email"></p>
+          <button class="button" id="edit-preferences" data-i18n="editPreferences">
+            Edit travel preferences
+          </button>
+        <button class="button" id="import-guest">
+          Copy this device’s guest journey to my account
+        </button>
+        <p class="muted small">
+          Existing account entries are kept. Guest-only places are copied.
+        </p>
+        <button class="button" id="sign-out">Sign out</button>
+      </div>
+      <p id="auth-message" role="status"></p>
+      <button class="button" data-close="account-dialog" data-i18n="continueGuest">Continue browsing as guest / close</button>
+    </dialog>
+    <dialog
+      id="gallery-dialog"
+      class="gallery-dialog"
+      aria-label="Destination photograph"
+    >
+      <button
+        class="dialog-close"
+        data-close="gallery-dialog"
+        aria-label="Close photograph"
+      >
+        ×
+      </button>
+      <div id="gallery-content"></div>
+    </dialog>
+    <div id="toast" role="status" aria-live="polite" hidden></div>
+    <noscript
+      ><p class="notice">
+        Please enable JavaScript to explore destinations and use your journey.
+      </p></noscript
+    >
+  </body>
+</html>
